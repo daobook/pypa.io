@@ -20,15 +20,14 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt
-          pip install sphinxcontrib-websupport sphinx-intl
+          conda install ipykernel
+          python -m ipykernel install --user --name ai --display-name "ai"
 
       - name: Build the book
         run: |
           make gettext
           sphinx-intl update -p _build/gettext -l zh_CN
           make html
-          sphinx-build -D language=zh_CN -b html ./source _build/html/zh_CN
 
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.6.1

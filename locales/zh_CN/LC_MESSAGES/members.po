@@ -1,0 +1,142 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, PyPA
+# This file is distributed under the same license as the PyPA package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyPA \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/members.rst:5
+msgid "PyPA Members, And How To Join"
+msgstr "PyPA 成员，以及如何加入"
+
+#: ../../docs/members.rst
+msgid "Last Reviewed"
+msgstr "最近一次审查"
+
+#: ../../docs/members.rst:7
+msgid "2020-07-20"
+msgstr ""
+
+#: ../../docs/members.rst:9
+msgid ""
+"Historically, the PyPA was a loose confederation of people and projects; "
+"the word \"authority\" in the name was meant to be a joke. :pep:`609` "
+"formalizes the PyPA somewhat and clarifies membership and governance "
+"rules."
+msgstr ""
+"从历史上看，PyPA 是一群松散的人和项目的联盟；"
+"名字中的 “authority” 一词是一个笑话。"
+":pep:`609` 将 PyPA 正式化，明确了成员和管理规则。"
+
+#: ../../docs/members.rst:17
+msgid "Does not require membership"
+msgstr "不需要成员资格"
+
+#: ../../docs/members.rst:19
+msgid "Anyone is welcome to (while following licensing terms) use PyPA projects."
+msgstr "欢迎任何人（在遵循许可条款的情况下）使用 PyPA 项目。"
+
+#: ../../docs/members.rst:21
+msgid ""
+"Anyone is welcome to (while following :ref:`Code of Conduct`) contribute "
+"patches, bug reports, feature requests, ideas, questions, answers, and "
+"similar information in our `GitHub organization`_ and `Bitbucket "
+"organization`_ repositories, and discuss issues and plans with us in `the"
+" Packaging category on discuss.python.org`_ and on `the distutils-sig "
+"mailing list`_."
+msgstr ""
+"欢迎任何人（在遵循 :ref:`Code of Conduct` 的情况下）"
+"在我们的 `GitHub 组织`_ 和 `Bitbucket 组织`_ 仓库中贡献补丁、错误报告、功能请求、"
+"想法、问题、答案和类似的信息，并在 `discussion.python.org 上的包类别`_ "
+"和 `distutils-sig 邮件列表`_ 上与我们讨论问题和计划。"
+
+#: ../../docs/members.rst:31
+msgid "Project membership"
+msgstr "项目成员"
+
+#: ../../docs/members.rst:33
+msgid ""
+"The PyPA member projects are those listed within our `GitHub "
+"organization`_ and `Bitbucket organization`_."
+msgstr ""
+"PyPA 成员项目是那些在我们的 `GitHub 组织`_ 和 `Bitbucket 组织`_ 中列出的项目。"
+
+#: ../../docs/members.rst:36
+msgid ""
+"Per :pep:`609`, any existing PyPA member can propose to accept a project "
+"into PyPA, and members vote to decide whether to accept that proposal. "
+"Criteria include the project adopting the PyPA's :ref:`Code of Conduct` "
+"and the project being relevant to Python packaging, as determined by "
+"existing members of PyPA."
+msgstr ""
+"根据 :pep:`609`，任何现有的 PyPA 成员都可以提议接受一个项目加入 PyPA，"
+"成员们投票决定是否接受该提议。标准包括该项目采用 PyPA 的 :ref:`Code of Conduct` "
+"和该项目与 PyPA 现有成员确定的 Python 打包相关。"
+
+#: ../../docs/members.rst:42
+msgid ""
+"To request PyPA project membership, start a thread on `the Packaging "
+"category on discuss.python.org`_ or on `the distutils-sig mailing list`_ "
+"requesting such a vote."
+msgstr ""
+"要申请成为 PyPA 项目成员，请在 `the Packaging category on discuss.python.org`_ "
+"或 `the distutils-sig mailing list`_ 上发起一个请求，要求进行这样的投票。"
+
+#: ../../docs/members.rst:50
+msgid "Individual membership"
+msgstr "个人会员制"
+
+#: ../../docs/members.rst:52
+msgid ""
+"Maintainership of a project that is under the PyPA organization "
+"automatically transfers individual membership in the PyPA. The PyPA "
+"individual members are those who have maintainer status (also known as "
+"committer status or write permissions) or triage permissions on any "
+"projects within the PyPA `GitHub organization`_ or `Bitbucket "
+"organization`_. Currently there is no public list of all PyPA individual "
+"members."
+msgstr ""
+"PyPA 组织下的项目的维护者身份会自动转移 PyPA 的个人成员资格。"
+"PyPA 的个人成员是那些在 PyPA 的 `GitHub 组织`_ 或 `Bitbucket 组织`_ "
+"内的任何项目上拥有维护者身份（也被称为提交者身份或写入权限）或分流权限的人。"
+"目前还没有所有 PyPA 个人成员的公开名单。"
+
+#: ../../docs/members.rst:60
+msgid ""
+"Per :pep:`609`, to become an individual member of the PyPA, you can do "
+"either of the following:"
+msgstr ""
+"根据 :pep:`609`，要成为 PyPA 的个人成员，你可以做以下任何一项："
+
+#: ../../docs/members.rst:63
+msgid ""
+"attain PyPA project membership for your project (for which you are "
+"already a maintainer)"
+msgstr ""
+"为你的项目获得 PyPA 项目成员资格（你已经是该项目维护者）"
+
+#: ../../docs/members.rst:64
+msgid ""
+"attain maintainership or triage permissions in a project that is already "
+"a PyPA member project"
+msgstr ""
+"在一个已经是 PyPA 成员的项目中获得维护者或分管者的权限"
+
+#: ../../docs/members.rst:66
+msgid ""
+"PyPA member projects each make their own decisions regarding granting "
+"maintainer and triager rights to individuals."
+msgstr ""
+"PyPA 成员项目在向个人授予维护者和分管者权利方面各自做出决定。"

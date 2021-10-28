@@ -1,0 +1,487 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, PyPA
+# This file is distributed under the same license as the PyPA package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyPA \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/history.rst:5
+msgid "Packaging History"
+msgstr "打包历史"
+
+#: ../../docs/history.rst:8
+msgid "2021"
+msgstr ""
+
+#: ../../docs/history.rst:10
+msgid "`The PyPA became a PSF Fiscal Sponsoree`_"
+msgstr "`PyPA 成为 PSF 的财政赞助者`_"
+
+#: ../../docs/history.rst:14
+msgid "2020"
+msgstr ""
+
+#: ../../docs/history.rst:16
+msgid ""
+"`Old pypa-dev Google Group decommissioned`_ to focus conversation in "
+"Discourse forum and distutils-sig list."
+msgstr ""
+
+#: ../../docs/history.rst:18
+msgid ""
+"`Packaging Working Group used MOSS and CZI funding to improve pip "
+"dependency resolver`_."
+msgstr ""
+
+#: ../../docs/history.rst:20
+msgid ":pep:`609` created and accepted, creating PyPA governance model."
+msgstr ""
+
+#: ../../docs/history.rst:21
+msgid "`New pip dependency resolver released`_."
+msgstr ""
+
+#: ../../docs/history.rst:24
+msgid "2019"
+msgstr ""
+
+#: ../../docs/history.rst:26
+msgid ""
+"`OTF grant for PyPI awarded to PSF`_, team worked on security, "
+"localization, and accessibility improvements to Warehouse."
+msgstr ""
+
+#: ../../docs/history.rst:30
+msgid "2018"
+msgstr ""
+
+#: ../../docs/history.rst:32
+msgid ""
+"Warehouse `superseded and replaced legacy PyPI "
+"<https://mail.python.org/mm3/archives/list/distutils-"
+"sig@python.org/thread/YREMU56QKRMTTFBFVFJ2B4EHOEKOJZFJ/>`_."
+msgstr ""
+
+#: ../../docs/history.rst:34
+msgid ""
+"Warehouse installation at pypi.org `entered beta phase "
+"<https://mail.python.org/pipermail/python-announce-"
+"list/2018-March/011883.html>`_."
+msgstr ""
+
+#: ../../docs/history.rst:36
+msgid ":pep:`566` accepted, adding better package metadata."
+msgstr ""
+
+#: ../../docs/history.rst:39
+msgid "2017"
+msgstr ""
+
+#: ../../docs/history.rst:41
+msgid ""
+"``pipenv``-based application dependency management tutorial `added to "
+"PyPUG <https://github.com/pypa/python-packaging-user-guide/pull/369>`_."
+msgstr ""
+
+#: ../../docs/history.rst:44
+msgid ""
+"`MOSS grant for PyPI`_ awarded to PSF, team began in December to focus on"
+" replacing legacy PyPI."
+msgstr ""
+
+#: ../../docs/history.rst:46
+msgid ":pep:`517` accepted (``setup.py``-independent build system backends)."
+msgstr ""
+
+#: ../../docs/history.rst:47
+msgid ""
+"Legacy pypi.python.org upload API `switched off "
+"<https://mail.python.org/pipermail/distutils-"
+"sig/2017-July/030849.html>`_."
+msgstr ""
+
+#: ../../docs/history.rst:51
+msgid "2016"
+msgstr ""
+
+#: ../../docs/history.rst:53
+msgid ""
+":ref:`pip` version 9 (`pip release notes`_) started respecting the "
+"``Requires-Python metadata`` field."
+msgstr ""
+
+#: ../../docs/history.rst:55
+msgid ""
+"Package uploads `started defaulting to pypi.org "
+"<https://mail.python.org/pipermail/distutils-"
+"sig/2017-June/030766.html>`_."
+msgstr ""
+
+#: ../../docs/history.rst:57
+msgid ""
+"pypi.org `deployed <https://mail.python.org/pipermail/distutils-"
+"sig/2016-August/029355.html>`_ as a soft-launch with core functionality."
+msgstr ""
+
+#: ../../docs/history.rst:60
+msgid ""
+":pep:`518` accepted (defining the ``pyproject.toml`` format for static "
+"build dependency declarations)"
+msgstr ""
+
+#: ../../docs/history.rst:62
+msgid ""
+"PSF `hired an infrastructure manager "
+"<https://pyfound.blogspot.com.au/2016/04/the-psf-has-hired-it-"
+"manager.html>`_."
+msgstr ""
+
+#: ../../docs/history.rst:64
+msgid ""
+":ref:`pip` v8.1 added ``manylinux1`` support (:pep:`513`, `pip release "
+"notes`_), PyPI starts allowing Linux wheel files"
+msgstr ""
+
+#: ../../docs/history.rst:66
+msgid ":pep:`513` accepted (defining the ``manylinux1`` platform ABI)."
+msgstr ""
+
+#: ../../docs/history.rst:67
+msgid ""
+"Version 8 of :ref:`pip` (`pip release notes`_) integrated artifact hash "
+"checking (previously dependent on the third-party project `peep`_)."
+msgstr ""
+
+#: ../../docs/history.rst:71
+msgid "2015"
+msgstr ""
+
+#: ../../docs/history.rst:73
+msgid ""
+":ref:`pip` (v7) started caching built :term:`wheels <pypug:Wheel>`, and "
+"installing from them, instead of installing directly from :term:`sdists "
+"<pypug:Source Distribution (or \"sdist\")>` (`pip release notes`_)."
+msgstr ""
+
+#: ../../docs/history.rst:76
+msgid ""
+":ref:`pip` (v7) started supporting ``--install-option`` and ``--global-"
+"option`` per requirement in requirement files (`pip release notes`_)."
+msgstr ""
+
+#: ../../docs/history.rst:78
+msgid ""
+":ref:`setuptools` (v18.3) now allows disabling of the manipulation of the"
+" sys.path during the processing of the easy-install.pth file."
+msgstr ""
+
+#: ../../docs/history.rst:80
+msgid ":pep:`470`, which deprecated external, non-PyPI hosting, was accepted."
+msgstr ""
+
+#: ../../docs/history.rst:82
+msgid ":pep:`503` published to standardise the PyPI simple repository API."
+msgstr ""
+
+#: ../../docs/history.rst:83
+msgid ""
+":pep:`508` published to standardise the specification format for "
+"individual dependencies."
+msgstr ""
+
+#: ../../docs/history.rst:86
+msgid "2014"
+msgstr ""
+
+#: ../../docs/history.rst:89
+msgid ""
+":ref:`pypug:setuptools` v8.0 and :ref:`pypug:pip` v6.0 (`pip release "
+"notes`_) implemented :pep:`440` (Python's new versioning scheme). Both "
+"projects now depend on the project :ref:`pypug:packaging` for this "
+"support."
+msgstr ""
+
+#: ../../docs/history.rst:93
+msgid ":pep:`477` backported :pep:`453` into Python 2.7.9."
+msgstr ""
+
+#: ../../docs/history.rst:94
+msgid ":pep:`453`: Being able to bootstrap ``pip`` into Python 3.4."
+msgstr ""
+
+#: ../../docs/history.rst:95
+msgid ""
+"https://bugs.python.org/issue19407: Modern Installation and Packaging "
+"guides on python.org."
+msgstr ""
+
+#: ../../docs/history.rst:97
+msgid ""
+":ref:`virtualenv` (v1.11) started installing pip & setuptools using "
+"wheels."
+msgstr ""
+
+#: ../../docs/history.rst:98
+msgid ""
+":ref:`pip` (v1.5.1) became available as a cross platform wheel on PyPI "
+"(`pip release notes`_)."
+msgstr ""
+
+#: ../../docs/history.rst:100
+msgid ""
+":ref:`pip` (v1.5.1) stop requiring :ref:`setuptools` to install wheels "
+"(`pip release notes`_)."
+msgstr ""
+
+#: ../../docs/history.rst:102
+msgid "``get-pip.py`` doesn't require setuptools to be installed first"
+msgstr ""
+
+#: ../../docs/history.rst:103
+msgid "``get-pip.py`` installs setuptools for you, if you don't already have it"
+msgstr ""
+
+#: ../../docs/history.rst:104
+msgid ":pep:`449`: Removal of the DNS-based mirror autodiscovery"
+msgstr ""
+
+#: ../../docs/history.rst:105
+msgid ""
+"`Refactored the pip docs <https://github.com/pypa/pip/pull/1556>`_ to be "
+"consistent with the `\"PyPA Standard Docs Template\" "
+"<https://gist.github.com/qwcode/8431828>`_"
+msgstr ""
+
+#: ../../docs/history.rst:108
+msgid "PyPUG moved to the packaging.python.org subdomain."
+msgstr ""
+
+#: ../../docs/history.rst:109
+msgid ":pep:`440` published to standardise version descriptions and filtering."
+msgstr ""
+
+#: ../../docs/history.rst:112
+msgid "2013"
+msgstr ""
+
+#: ../../docs/history.rst:114
+msgid ""
+":ref:`distlib` started releasing to PyPI, and :ref:`pip` began depending "
+"on it (`pip release notes`_)."
+msgstr ""
+
+#: ../../docs/history.rst:116
+msgid ""
+"Core PyPI infrastructure relocated to OSU/OSL (with significantly "
+"increased resources)"
+msgstr ""
+
+#: ../../docs/history.rst:118
+msgid ""
+"The core packaging projects were collected under the :term:`pypug:Python "
+"Packaging Authority (PyPA)` accounts on `GitHub "
+"<https://github.com/pypa>`_ and `Bitbucket "
+"<https://bitbucket.org/pypa/>`_ [2]_"
+msgstr ""
+
+#: ../../docs/history.rst:121
+msgid ""
+"Distribute merged back into :ref:`setuptools`, and :ref:`setuptools` "
+"development migrated to the PyPA BitBucket account. [1]_ [5]_"
+msgstr ""
+
+#: ../../docs/history.rst:123
+msgid ""
+"PyPI started supporting clients using verified SSL with standard cert "
+"bundles."
+msgstr ""
+
+#: ../../docs/history.rst:124
+msgid "PyPI forced web users over to SSL."
+msgstr ""
+
+#: ../../docs/history.rst:125
+msgid ""
+":ref:`pip` (v1.3) and :ref:`easy_install <setuptools>` (v0.7) use "
+"verified SSL by default (`pip release notes`_)"
+msgstr ""
+
+#: ../../docs/history.rst:127
+msgid "easy_install supports additional hashes beyond md5 (pip already did)"
+msgstr ""
+
+#: ../../docs/history.rst:128
+msgid "`Fastly CDN enabled`_ for PyPI (donated)"
+msgstr ""
+
+#: ../../docs/history.rst:129
+msgid ""
+"Restructured the `pip install docs "
+"<https://pip.pypa.io/en/latest/installing/>`_ to clarify that setuptools "
+"and pip are the \"base\" of the bootstrapping hierarchy"
+msgstr ""
+
+#: ../../docs/history.rst:132
+msgid "setuptools available as a cross platform wheel on PyPI"
+msgstr ""
+
+#: ../../docs/history.rst:133
+msgid ":pep:`438` and the associated pip changes."
+msgstr ""
+
+#: ../../docs/history.rst:134
+msgid ""
+":ref:`pip` (v1.4) added support for building and installing :term:`wheels"
+" <pypug:Wheel>` (`pip release notes`_)"
+msgstr ""
+
+#: ../../docs/history.rst:136
+msgid ""
+":term:`pypug:Python Packaging Authority (PyPA)` became the maintainer for"
+" the `Python Packaging User Guide`_, which was forked from the "
+"\"Hitchhiker's Guide to Packaging\"."
+msgstr ""
+
+#: ../../docs/history.rst:139
+msgid ""
+"Packaging Dev and User Summits were held at Pycon 2013 to share ideas on "
+"the future of packaging. [3]_ [4]_"
+msgstr ""
+
+#: ../../docs/history.rst:141
+msgid ""
+":pep:`425` and :pep:`427` were accepted.  Together, they specify a built-"
+"package format for Python called :term:`wheels <pypug:Wheel>`."
+msgstr ""
+
+#: ../../docs/history.rst:145
+msgid "Before 2013"
+msgstr ""
+
+#: ../../docs/history.rst:147
+msgid ""
+"**2012-06-19**: The effort to include \"Distutils2/Packaging\" in Python "
+"3.3 was abandoned due lack of involvement. [6]_"
+msgstr ""
+
+#: ../../docs/history.rst:150
+msgid ""
+"**2011-02-28**: The :term:`pypug:Python Packaging Authority (PyPA)` is "
+"created to take over the maintenance of :ref:`pip` and :ref:`virtualenv` "
+"from Ian Bicking, led by Carl Meyer, Brian Rosner and Jannis Leidel. "
+"Other proposed names were \"ianb-ng\", \"cabal\", \"pack\" and \"Ministry"
+" of Installation\"."
+msgstr ""
+
+#: ../../docs/history.rst:155
+msgid ""
+"**2008**: `distribute`_ was forked from :ref:`setuptools` by Tarek Ziade,"
+" in an effort to create a more open project."
+msgstr ""
+
+#: ../../docs/history.rst:158
+msgid ""
+"**2008**: :ref:`pip` was introduced by Ian Bicking as an alternative to "
+"``easy_install`` (the installer included with :ref:`setuptools`)"
+msgstr ""
+
+#: ../../docs/history.rst:161
+msgid ""
+"**2007**: :ref:`virtualenv` was introduced by Ian Bicking, which allowed "
+"users to create isolated Python environments based on a central system "
+"installation of Python."
+msgstr ""
+
+#: ../../docs/history.rst:165
+msgid ""
+"**2006**: :ref:`buildout` was introduced by Jim Fulton, with the goal to "
+"create a system for repeatable installations of potentially complex "
+"projects."
+msgstr ""
+
+#: ../../docs/history.rst:168
+msgid ""
+"**2005**: Package files could be hosted on PyPI for the first time, "
+"`following the sprints at PyCon US 2005 "
+"<https://mail.python.org/pipermail/catalog-sig/2005-March/000518.html>`_."
+msgstr ""
+
+#: ../../docs/history.rst:172
+msgid ""
+"**2004**: :ref:`setuptools` was introduced by Phillip Eby, which included"
+" the `Egg <pypug:Egg>` format, and the ability to declare and "
+"automatically install dependencies."
+msgstr ""
+
+#: ../../docs/history.rst:176
+msgid ""
+"**2003**: :term:`PyPI <pypug:Python Package Index (PyPI)>` was up and "
+"running."
+msgstr ""
+
+#: ../../docs/history.rst:178
+msgid ""
+"**2002**: Richard Jones started work on :term:`PyPI <pypug:Python Package"
+" Index (PyPI)>`, and created :pep:`301` to describe it."
+msgstr ""
+
+#: ../../docs/history.rst:181
+msgid ""
+"**2001**: :pep:`241` was written to standardize the metadata for "
+"distributions."
+msgstr ""
+
+#: ../../docs/history.rst:183
+msgid ""
+"**2000**: `catalog-sig`_ was created to discuss creating a centralized "
+"index of distributions."
+msgstr ""
+
+#: ../../docs/history.rst:186
+msgid ""
+"**2000**: :ref:`distutils` was added to the Python standard library in "
+"Python 1.6."
+msgstr ""
+
+#: ../../docs/history.rst:188
+msgid ""
+"**1998**: The `distutils-sig`_ dicussion list was created to discuss the "
+"development of :ref:`distutils`."
+msgstr ""
+
+#: ../../docs/history.rst:209
+msgid "https://mail.python.org/pipermail/distutils-sig/2013-June/021160.html"
+msgstr ""
+
+#: ../../docs/history.rst:210
+msgid "https://mail.python.org/pipermail/distutils-sig/2013-March/020224.html"
+msgstr ""
+
+#: ../../docs/history.rst:211
+msgid "https://us.pycon.org/2013/community/openspaces/packaginganddistributionminisummit/"
+msgstr ""
+
+#: ../../docs/history.rst:212
+msgid "http://pyvideo.org/video/1731/panel-directions-for-packaging/"
+msgstr ""
+
+#: ../../docs/history.rst:213
+msgid "https://mail.python.org/pipermail/distutils-sig/2013-March/020127.html"
+msgstr ""
+
+#: ../../docs/history.rst:214
+msgid "https://mail.python.org/pipermail/python-dev/2012-June/120430.html"
+msgstr ""
+

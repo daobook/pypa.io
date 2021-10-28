@@ -1,0 +1,38 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, PyPA
+# This file is distributed under the same license as the PyPA package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyPA \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/code-of-conduct.rst:5
+msgid "Code of Conduct"
+msgstr "行为准则"
+
+#: ../../docs/code-of-conduct.rst:7
+msgid ""
+"All PyPA contributors and maintainers are expected to follow the `PSF "
+"Code of Conduct`_. Please see `PyPA-specific details`_."
+msgstr ""
+"所有 PyPA 的贡献者和维护者都应遵守 `PSF 行为准则`_。请参阅 `PyPA 的具体细节`_。"
+
+#: ../../docs/code-of-conduct.rst:10
+msgid ""
+"(PyPA previously had its own code of conduct separate from PSF's; "
+":pep:`609` switched PyPA to PSF's Code of Conduct.)"
+msgstr ""
+"（PyPA 以前有自己的行为准则，与 PSF 的行为准则分开；"
+":pep:`609` 将 PyPA 换成了 PSF 的行为准则）。"
+

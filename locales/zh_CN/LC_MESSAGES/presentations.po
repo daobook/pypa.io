@@ -1,0 +1,229 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, PyPA
+# This file is distributed under the same license as the PyPA package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyPA \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/presentations.rst:3
+msgid "Presentations & Articles"
+msgstr "演示文稿 & 文章"
+
+#: ../../docs/presentations.rst:5
+msgid "RFCs we ❤️ at Recurse Center, August 2020"
+msgstr "RFCs 我们 ❤️ 在 Recurse 中心，2020 年 8月"
+
+#: ../../docs/presentations.rst:7
+msgid ""
+"`Some PEP talk, or: What is a pyproject.toml? "
+"<https://vinayak.io/2020/08/17/day-6-some-pep-talk/>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:9
+msgid "PyCon India, October 2019"
+msgstr ""
+
+#: ../../docs/presentations.rst:11
+msgid ""
+"`Python Packaging - Where We Are and Where We're Headed "
+"<https://pyvideo.org/pycon-india-2019/python-packaging-where-we-are-and-"
+"where-were-headed-pradyun-gedam.html>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:13
+msgid "PyCon UK, September 2019"
+msgstr ""
+
+#: ../../docs/presentations.rst:15
+msgid ""
+"`What does PEP 517 mean for packaging <https://pyvideo.org/pycon-uk-2019"
+"/what-does-pep-517-mean-for-packaging.html>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:17
+msgid "Kiwi PyCon, August 2019"
+msgstr ""
+
+#: ../../docs/presentations.rst:19
+msgid ""
+"`The Packaging Lifecycle with Poetry <https://pyvideo.org/kiwi-pycon-2019"
+"/the-packaging-lifecycle-with-poetry.html>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:21
+msgid "North Bay Python, November 2018"
+msgstr ""
+
+#: ../../docs/presentations.rst:23
+msgid ""
+"`Packaging Django Apps for Distribution on PyPI  <https://pyvideo.org"
+"/north-bay-python-2018/packaging-django-apps-for-distribution-on-"
+"pypi.html>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:25
+msgid "PyGotham, October 2018"
+msgstr ""
+
+#: ../../docs/presentations.rst:27
+msgid ""
+"`Inside the Cheeseshop: How Python Packaging Works "
+"<https://pyvideo.org/pygotham-2018/inside-the-cheeseshop-how-python-"
+"packaging-works.html>`_ (`slides and transcript "
+"<https://dustingram.com/talks/2018/10/23/inside-the-cheeseshop/>`_)"
+msgstr ""
+
+#: ../../docs/presentations.rst:32
+msgid "Linux Weekly News, April 2018"
+msgstr ""
+
+#: ../../docs/presentations.rst:34
+msgid ""
+"`A new package index for Python "
+"<https://lwn.net/SubscriberLink/751458/81b2759e7025d6b9/>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:36
+msgid "North Bay Python, December 2017"
+msgstr ""
+
+#: ../../docs/presentations.rst:38 ../../docs/presentations.rst:48
+msgid "`Running Vintage Software: PyPI's Aging Codebase`__"
+msgstr ""
+
+#: ../../docs/presentations.rst:42
+msgid "PyGotham, October 2017"
+msgstr ""
+
+#: ../../docs/presentations.rst:44
+msgid ""
+"Python Packaging 2.0: Playing Well With Others (`video "
+"<https://www.youtube.com/watch?v=7An2GobbSWU>`_, `article "
+"<https://lwn.net/Articles/580399/>`_)"
+msgstr ""
+
+#: ../../docs/presentations.rst:52
+msgid "PyBay, August 2017"
+msgstr ""
+
+#: ../../docs/presentations.rst:54
+msgid ""
+"The Packaging Gradient (`video`__, `essay "
+"<http://sedimental.org/the_packaging_gradient.html>`_)"
+msgstr ""
+
+#: ../../docs/presentations.rst:59
+msgid "PyCon US, May 2017"
+msgstr ""
+
+#: ../../docs/presentations.rst:61
+msgid ""
+"`Share Your Code! Python Packaging Without Complication "
+"<https://daveops.com/talks/pycon-2017-share-your-code-python-packaging-"
+"without-complication/>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:64
+msgid "PyCon FR, October 2016"
+msgstr ""
+
+#: ../../docs/presentations.rst:66
+msgid ""
+"`Warehouse - the future of PyPI <http://pyvideo.org/pycon-fr-2016"
+"/warehouse-the-future-of-pypi.html>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:69
+msgid "SciPy, July 2016"
+msgstr ""
+
+#: ../../docs/presentations.rst:71
+msgid ""
+"`Reinventing the whl: New Developments in the Upstream Python Packaging "
+"Ecosystem <http://pyvideo.org/scipy-2016/reinventing-the-whl-new-"
+"developments-in-the-upstream-python-packaging-ecosystem-"
+"scipy-2016-nath.html>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:74
+msgid "PyCon US, April 2014"
+msgstr ""
+
+#: ../../docs/presentations.rst:76
+msgid ""
+"`What is coming in Python packaging "
+"<https://us.pycon.org/2014/schedule/presentation/204/>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:78
+msgid ""
+"`Python packaging simplified, for end users, app developers, and open "
+"source contributors "
+"<https://us.pycon.org/2014/schedule/presentation/219>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:81
+msgid "linux.conf.au 2014"
+msgstr ""
+
+#: ../../docs/presentations.rst:83
+msgid "Python Packaging 2.0: Playing Well With Others (`video`__, `article`__)"
+msgstr ""
+
+#: ../../docs/presentations.rst:89
+msgid "PyCon AU, July 2013"
+msgstr ""
+
+#: ../../docs/presentations.rst:91
+msgid ""
+"`Nobody Expects the Python Packaging Authority "
+"<http://pyvideo.org/video/2197/nobody-expects-the-python-packaging-"
+"authority>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:94
+msgid "PyCon US, March 2013"
+msgstr ""
+
+#: ../../docs/presentations.rst:96
+msgid ""
+"`Directions in Packaging Q & A Panel (aka \"./setup.py install must "
+"die\") <http://pyvideo.org/video/1731/panel-directions-for-packaging>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:99
+msgid "Personal essays"
+msgstr ""
+
+#: ../../docs/presentations.rst:101
+msgid ""
+"`Nick Coghlan: The Python Packaging Ecosystem "
+"<http://www.curiousefficiency.org/posts/2016/09/python-packaging-"
+"ecosystem.html>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:104
+msgid ""
+"`Donald Stufft: Powering the Python Package Index "
+"<https://caremad.io/posts/2016/05/powering-pypi/>`_"
+msgstr ""
+
+#: ../../docs/presentations.rst:107
+msgid ""
+"`Nick Coghlan: Incremental Plans to Improve Python Packaging <http"
+"://python-"
+"notes.curiousefficiency.org/en/latest/pep_ideas/core_packaging_api.html>`_"
+msgstr ""
+

@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, PyPA
+# This file is distributed under the same license as the PyPA package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyPA \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/specifications.rst:5
+msgid "PyPA Specifications"
+msgstr "PyPA 规范"
+
+#: ../../docs/specifications.rst:7
+msgid ""
+"In addition to maintaining the default implementation of the Python "
+"packaging toolchain, the Python Packaging Authority is also responsible "
+"for maintaining the interoperability specifications used to define the "
+"interactions between those tools."
+msgstr ""
+"除了维护 Python 打包工具链的默认实现外，Python "
+"打包机构还负责维护用于定义这些工具之间相互作用的互操作性规范。"
+
+#: ../../docs/specifications.rst:13
+msgid "Active Specifications"
+msgstr "活跃的规格"
+
+#: ../../docs/specifications.rst:15
+msgid ""
+"Interoperability specifications maintained by the Python Packaging "
+"Authority are tracked as Informational Python Enhancement Proposals in "
+"accordance with :pep:`1`."
+msgstr ""
+"由 Python 打包机构维护的互操作性规范，按照 :pep:`1` 的规定，"
+"作为信息性的 Python 增强提案进行跟踪。"
+
+#: ../../docs/specifications.rst:19
+msgid ""
+"The currently active specifications are recorded in the :doc:`PyPA "
+"Specifications <pypug:specifications/index>` section of the Python "
+"Packaging User Guide."
+msgstr ""
+"当前有效的规范记录在 :doc:`PyPA 规范 <pypug:specifications/index>` "
+"部分的 Python 打包用户指南中。"
+
+#: ../../docs/specifications.rst:23
+msgid ""
+"This section may also include clarifications, amendments and additional "
+"guidance for specification implementors in cases where the corresponding "
+"PEPs have yet to be updated appropriately."
+msgstr ""
+
+#: ../../docs/specifications.rst:29
+msgid "Specification Update Process"
+msgstr ""
+
+#: ../../docs/specifications.rst:31
+msgid "PyPA interoperability specifications are separated into two categories:"
+msgstr ""
+
+#: ../../docs/specifications.rst:33
+msgid ""
+"`Package Distribution Metadata "
+"<https://packaging.python.org/specifications/>`_"
+msgstr ""
+
+#: ../../docs/specifications.rst:34
+msgid "`Package Index Interfaces <https://packaging.python.org/specifications/>`_"
+msgstr ""
+
+#: ../../docs/specifications.rst:38
+msgid "Proposing new specifications"
+msgstr ""
+
+#: ../../docs/specifications.rst:40
+msgid ""
+"Proposals for new interoperability specifications should be formulated "
+"and submitted as new Standards Track Python Enhancement Proposals in "
+"accordance with :pep:`1`."
+msgstr ""
+
+#: ../../docs/specifications.rst:44
+msgid ""
+"Such proposals must be accompanied by a pull request to the `Python "
+"Packaging User Guide repository`_, against the PyPA Specifications "
+"section, that adds a new subsection defining the purpose of the new "
+"specification and the role it plays in the wider Python packaging "
+"ecosystem."
+msgstr ""
+
+#: ../../docs/specifications.rst:51
+msgid ""
+"The ``Discussions-To`` header in packaging related PEPs should be set to "
+"a new topic dedicated to the proposal on `Python.org Discourse`_ under "
+"the *packaging* category."
+msgstr ""
+
+#: ../../docs/specifications.rst:57
+msgid ""
+"Whenever a new PEP is put forward on distutils-sig, any PyPA core "
+"reviewer that believes they are suitably experienced to make the final "
+"decision on that PEP may offer to serve as the Steering Council's "
+"delegate (or \"PEP czar\") for that PEP. If their self-nomination is "
+"accepted by the other PyPA core reviewers, the lead PyPI maintainer and "
+"the default PEP-Delegate for package distribution metadata PEPs, then "
+"they will have the authority to approve (or reject) that PEP."
+msgstr ""
+
+#: ../../docs/specifications.rst:65
+msgid ""
+"Otherwise, the default (\"standing\") PEP-Delegate depends on the area "
+"the PEP affects. The `current standing delegations "
+"<https://github.com/python/steering-council/blob/master/process/standing-"
+"delegations.md#pypa-delegations>`__ are:"
+msgstr ""
+
+#: ../../docs/specifications.rst:69
+msgid "Package Distribution Metadata PEPs: Paul Moore"
+msgstr ""
+
+#: ../../docs/specifications.rst:70
+msgid "Package Index Interface PEPs: Donald Stufft"
+msgstr ""
+
+#: ../../docs/specifications.rst:72
+msgid ""
+"For Package Distribution Metadata, the default PEP-Delegate was "
+"originally appointed directly by Guido van Rossum as Python's BDFL (hence"
+" the previous use of the term ``BDFL-Delegate``), but is now nominated by"
+" the previous default PEP-Delegate. Any of the standing delegates may "
+"also be a sponsor for any packaging-related PEP."
+msgstr ""
+
+#: ../../docs/specifications.rst:78
+msgid ""
+"For Package Index Interfaces, the default responsible decision maker is "
+"the lead maintainer for the `Python Package Index <https://pypi.org>`__."
+msgstr ""
+
+#: ../../docs/specifications.rst:83
+msgid "Provisional Acceptance"
+msgstr ""
+
+#: ../../docs/specifications.rst:85
+msgid ""
+"PyPA has its own variant of the standard library's provisional modules, "
+"which is provisional interoperability specifications."
+msgstr ""
+
+#: ../../docs/specifications.rst:88
+msgid ""
+"These are specifications which have been accepted for implementation in "
+"the core packaging tools (PyPI, pip, etc), but are still considered "
+"subject to potentially backwards incompatible amendments if real world "
+"experience indicates that there are critical problems in the interface "
+"design that make it hard to implement and/or use correctly."
+msgstr ""
+
+#: ../../docs/specifications.rst:94
+msgid ""
+"When a PEP has only been provisionally accepted, this will be noted using"
+" the Provisional status in the PEP header - it will then be marked as "
+"Final after successful rollout and initial adoption of the reference "
+"implementation."
+msgstr ""
+
+#: ../../docs/specifications.rst:101
+msgid "Handling fixes and other minor updates"
+msgstr ""
+
+#: ../../docs/specifications.rst:103
+msgid ""
+"The preferred approach to handling corrections and clarifications for all"
+" recent interoperability specifications is to designate in the PEP that "
+"the actively maintained version of the specification is hosted in the "
+":doc:`PyPA Specifications <pypug:specifications/index>` section of the "
+"user guide, and the PEP process is used solely to propose and review "
+"changes to the specifications, rather than serving as long term interface"
+" documentation in their own right."
+msgstr ""
+
+#: ../../docs/specifications.rst:111
+msgid "For an example of this approach, see :pep:`566`."
+msgstr ""
+
+#: ../../docs/specifications.rst:113
+msgid ""
+"This allows readability improvements that don't affect software "
+"interoperability to be implemented using the Python Packaging User "
+"Guide's standard pull request based workflow, in a process that more "
+"closely matches the relationship between the `Python language reference "
+"<https://docs.python.org/dev/reference/>`_ and the Python Enhancement "
+"Proposals that update it."
+msgstr ""
+
+#: ../../docs/specifications.rst:119
+msgid ""
+"If a change being considered this way has the potential to affect "
+"software interoperability, then it must be escalated to the distutils-sig"
+" mailing list for discussion, where it will be either approved as a text-"
+"only change, or else directed to the PEP process for specification "
+"updates."
+msgstr ""
+
+#: ../../docs/specifications.rst:124
+msgid ""
+"For older PEPs, where the PEP itself serves as the reference "
+"documentation, the equivalent amendment process is to submit an issue "
+"and/or pull request against the `official PEPs repo "
+"<https://github.com/python/peps>`_."
+msgstr ""
+
+#: ../../docs/specifications.rst:128
+msgid ""
+"All enhancements proposed this way *must* be discussed on distutils-sig "
+"prior to amending the PEP, and any changes made after PEP acceptance must"
+" be explicitly documented in a \"Changes\" section in the PEP itself. For"
+" example, see:"
+msgstr ""
+
+#: ../../docs/specifications.rst:133
+msgid ""
+"`Changes in PEP 440 <https://www.python.org/dev/peps/pep-0440/#summary-"
+"of-changes-to-pep-440>`_"
+msgstr ""
+
+#: ../../docs/specifications.rst:134
+msgid "`Changes in PEP 503 <https://www.python.org/dev/peps/pep-0503/#changes>`_"
+msgstr ""
+
+#: ../../docs/specifications.rst:136
+msgid ""
+"PyPA core reviewers that are also PEP editors are responsible for "
+"deciding which of these changes can just be accepted (e.g. fixing a "
+"typo), which need to be reviewed by the relevant responsible decision "
+"maker before being accepted, and which need to be escalated to the full "
+"Python Enhancement Proposal process."
+msgstr ""
+
+#: ../../docs/specifications.rst:143
+msgid "Handling major updates"
+msgstr ""
+
+#: ../../docs/specifications.rst:145
+msgid ""
+"For package distribution metadata, proposals that require backwards "
+"incompatible changes to existing interoperability specifications for "
+"package distribution metadata (and hence a new major version of the "
+"specification rather than an in-place update) are currently not "
+"permitted."
+msgstr ""
+
+#: ../../docs/specifications.rst:150
+msgid ""
+"This policy has been introduced based on historical experience that such "
+"incompatibilities lead to the community sticking with older versions of "
+"the metadata format indefinitely rather than upgrading to the revised "
+"format."
+msgstr ""
+
+#: ../../docs/specifications.rst:154
+msgid ""
+"For package index interfaces, major updates are handled as either Process"
+" or Standards Track PEPs targeting the Python Package Index as the "
+"reference implementation. All such PEPs that introduce backwards "
+"incompatible changes are required to define a suitable transition plan "
+"for affected software publishers and tool developers."
+msgstr ""
+

@@ -1,0 +1,5 @@
+msgid "Previous"
+msgstr "上一页"
+
+msgid "Next"
+msgstr "下一页"

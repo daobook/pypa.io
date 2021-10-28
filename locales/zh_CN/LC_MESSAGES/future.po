@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, PyPA
+# This file is distributed under the same license as the PyPA package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyPA \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/future.rst:3
+msgid "PyPA Goals"
+msgstr "PyPA 目标"
+
+#: ../../docs/future.rst:6
+msgid ""
+"The :ref:`distutils` cross-platform build and distribution system was "
+"added to the Python standard library in late 2000. This means the current"
+" Python software distribution ecosystem (which builds on "
+":ref:`distutils`) has a foundation that is almost 15 years old, which "
+"poses a variety of challenges to successful evolution."
+msgstr ""
+":ref:`distutils` 跨平台构建和发布系统在 2000 年底被添加到 Python 标准库中。"
+"这意味着目前的 Python 软件发布生态系统（建立在 :ref:`distutils` 上）"
+"的基础已经有近 15 年的历史，这对成功的进化带来了各种挑战。"
+
+#: ../../docs/future.rst:12
+msgid ""
+"The current effort to improve the situation started when the "
+"``packaging`` library (also known as ``distutils2``) `did not make it "
+"<https://mail.python.org/pipermail/python-dev/2012-June/120430.html>`_ "
+"into the standard library for Python 3.3.  That effort had spanned from "
+"2009 to 2012."
+msgstr ""
+"目前改善情况的努力始于 ``packaging`` 库（也称为 ``distutils2``） "
+"`没有进入 Python 3.3 的标准库 "
+"<https://mail.python.org/pipermail/python-dev/2012-June/120430.html>`_。"
+"这一努力从 2009 年持续到 2012 年。"
+
+#: ../../docs/future.rst:17
+msgid ""
+"The current effort is managed by the :term:`pypug:Python Packaging "
+"Authority (PyPA)`, in cooperation with members of the Python core "
+"development team."
+msgstr ""
+"目前的工作由 :term:`pypug:Python Packaging Authority (PyPA)` 管理，"
+"并与 Python 核心开发团队的成员合作。"
+
+#: ../../docs/future.rst:20
+msgid "PyPA's current goals are:"
+msgstr "PyPA 当前目标是："
+
+#: ../../docs/future.rst:22
+msgid ""
+"To provide a relatively easy to use software distribution infrastructure "
+"that is also fast, reliable and reasonably secure.  \"Reasonably "
+"secure\", due to backwards compatibility constraints preventing turning "
+"off some insecure legacy features."
+msgstr ""
+"提供一个相对容易使用的软件分发基础设施，它也是快速、可靠和合理安全的。"
+"“合理的安全”，由于向后兼容的限制，无法关闭一些不安全的遗留功能。"
+
+#: ../../docs/future.rst:27
+msgid ""
+"Although it's still being defined, to work towards a \"Meta-Packaging\" "
+"[1]_ system that:"
+msgstr ""
+"虽然它仍在定义中，但要努力建立一个 “元包装” [1]_ 系统，即："
+
+#: ../../docs/future.rst:29
+msgid "Clearly delineates the phases of distribution"
+msgstr "清楚地划分了发布的阶段"
+
+#: ../../docs/future.rst:30
+msgid "Allows for multiple interacting tools vs one monolithic tool"
+msgstr "允许多个交互式工具与一个单一的工具进行交互"
+
+#: ../../docs/future.rst:31
+msgid ""
+"Specifically allows for alternative build systems, i.e. a `\"MetaBuild\" "
+"<https://www.python.org/dev/peps/pep-0518/>`_ system."
+msgstr ""
+"特别是允许替代的构建系统，即 `“MetaBuild” "
+"<https://www.python.org/dev/peps/pep-0518/>`_ 系统。"
+
+#: ../../docs/future.rst:34
+msgid ""
+"To improve the docs for users, including the `Python Packaging User "
+"Guide`_, anything related to packaging on `docs.python.org`_, and the "
+"project docs for :ref:`pip`, :ref:`setuptools`, :ref:`virtualenv`, and "
+":ref:`wheel`."
+msgstr ""
+"改善用户的文档，包括 `Python 打包用户指南`_、`docs.python.org`_ "
+"上与打包有关的任何内容，以及 :ref:`pip`、:ref:`setuptools`、:ref:`virtualenv`、"
+"和 :ref:`wheel` 的项目文档。"
+
+#: ../../docs/future.rst:38
+msgid ""
+"To be progressive, but also be very mindful to not break things that are "
+"currently working, due to haste."
+msgstr ""
+"要循序渐进，但也要非常注意，不要因为匆忙而破坏目前正在运作的事情。"
+
+#: ../../docs/future.rst:41
+msgid ""
+"To specifically *not* focus at first on adding something to the standard "
+"library as our solution to our packaging problems.  Adding something to "
+"the standard library is hard, and once it's added, it's a slow process to"
+" change it.  Most of the current effort is largely focused on 3rd party "
+"projects."
+msgstr ""
+"特别是 *不要* 一开始就把重点放在向标准库中添加一些东西作为我们解决包安装问题的方法。"
+"在标准库中添加一些东西是很难的，而且一旦添加了，要改变它是一个缓慢的过程。"
+"目前的大部分努力主要集中在第三方项目上。"
+
+#: ../../docs/future.rst:51
+msgid ""
+"See Nick Coghlan's `The Phases of Distribution <http://python-"
+"notes.curiousefficiency.org/en/latest/pep_ideas/core_packaging_api.html"
+"#the-phases-of-distribution>`_ and `A Meta-Packaging System <http"
+"://python-"
+"notes.curiousefficiency.org/en/latest/pep_ideas/core_packaging_api.html#a"
+"-meta-packaging-system>`_"
+msgstr ""
+"见 Nick Coghlan 的 `The Phases of Distribution <http://python-"
+"notes.curiousefficiency.org/en/latest/pep_ideas/core_packaging_api.html"
+"#the-phases-of-distribution>`_ 和 `A Meta-Packaging System <http"
+"://python-"
+"notes.curiousefficiency.org/en/latest/pep_ideas/core_packaging_api.html#a"
+"-meta-packaging-system>`_"

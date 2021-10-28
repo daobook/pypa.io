@@ -1,0 +1,505 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, PyPA
+# This file is distributed under the same license as the PyPA package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyPA \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/roadmap.rst:5
+msgid "PyPA Roadmap"
+msgstr "PyPA 路线图"
+
+#: ../../docs/roadmap.rst
+msgid "Last Reviewed"
+msgstr ""
+
+#: ../../docs/roadmap.rst:7 ../../docs/roadmap.rst:353
+msgid "2020-07-20"
+msgstr ""
+
+#: ../../docs/roadmap.rst:9
+msgid ""
+"A status page for the  major PyPA Todo items that will determine the "
+"course of Python Packaging."
+msgstr ""
+
+#: ../../docs/roadmap.rst:13
+msgid "Core Standards"
+msgstr ""
+
+#: ../../docs/roadmap.rst:18
+msgid "Metadata 2.0"
+msgstr ""
+
+#: ../../docs/roadmap.rst:20 ../../docs/roadmap.rst:217
+#: ../../docs/roadmap.rst:272
+msgid "2020-06-08"
+msgstr ""
+
+#: ../../docs/roadmap.rst
+msgid "Summary"
+msgstr ""
+
+#: ../../docs/roadmap.rst:22
+msgid ""
+"Major upgrades of the metadata format. Version 1.2 was specified in "
+":pep:`345`. :pep:`426` is `in Withdrawn status "
+"<https://www.python.org/dev/peps/pep-0426/#note-on-pep-history>`_; it had"
+" a very broad scope, and included \"build_requires\" and "
+"\"test_requires\", and the extensions system."
+msgstr ""
+
+#: ../../docs/roadmap.rst
+msgid "PEP Src"
+msgstr ""
+
+#: ../../docs/roadmap.rst:28
+msgid ""
+"`pep-0426-core-metadata.rst <https://github.com/pypa/interoperability-"
+"peps/blob/master/pep-0426-core-metadata.rst>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst
+msgid "Issues/PRs"
+msgstr ""
+
+#: ../../docs/roadmap.rst:31
+msgid ""
+"`pypa/interoperability-peps/labels/PEP426 <https://github.com/pypa"
+"/interoperability-peps/labels/PEP426>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst
+msgid "Status"
+msgstr ""
+
+#: ../../docs/roadmap.rst:35
+msgid ""
+":pep:`566` (Metadata 1.3) was accepted in February 2018. :pep:`566` "
+"(Metadata 2.1) was accepted in February 2018. Several features of "
+"Metadata 2.0 are specified but not yet accepted or implemented."
+msgstr ""
+
+#: ../../docs/roadmap.rst:43
+msgid "Environment Markers Update"
+msgstr ""
+
+#: ../../docs/roadmap.rst:45 ../../docs/roadmap.rst:66
+#: ../../docs/roadmap.rst:84 ../../docs/roadmap.rst:102
+#: ../../docs/roadmap.rst:123 ../../docs/roadmap.rst:143
+#: ../../docs/roadmap.rst:164 ../../docs/roadmap.rst:180
+#: ../../docs/roadmap.rst:197 ../../docs/roadmap.rst:236
+#: ../../docs/roadmap.rst:255 ../../docs/roadmap.rst:297
+#: ../../docs/roadmap.rst:315 ../../docs/roadmap.rst:332
+msgid "2017-12-10"
+msgstr ""
+
+#: ../../docs/roadmap.rst:47
+msgid ""
+"An update to the notion of \"Environment Markers\" introduced in "
+":pep:`345`. :pep:`426` was originally scoped to include this update, but "
+"it was moved out to :pep:`496`."
+msgstr ""
+
+#: ../../docs/roadmap.rst:51
+msgid ""
+"`pep-0496-environment-markers.rst <https://github.com/pypa"
+"/interoperability-peps/blob/master/pep-0496-environment-markers.rst>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:54
+msgid ""
+"`pypa/interoperability-peps/labels/PEP496 <https://github.com/pypa"
+"/interoperability-peps/labels/PEP496>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:57
+msgid ""
+":pep:`496` has been rejected in favor of the more comprehensive "
+":pep:`508`."
+msgstr ""
+
+#: ../../docs/roadmap.rst:64
+msgid "Optional Dependencies (\"Extras\")"
+msgstr ""
+
+#: ../../docs/roadmap.rst:68
+msgid ""
+"An attempt to formalize the notion of \"Extras\" introduced by "
+"setuptools. :pep:`426` was originally scoped to include this, but it will"
+" likely be broken out."
+msgstr ""
+
+#: ../../docs/roadmap.rst:72
+msgid ""
+"`pypa/interoperability-peps/labels/Extras <https://github.com/pypa"
+"/interoperability-peps/labels/Extras>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:75
+msgid ""
+"Currently covered in :pep:`426` (which is in Deferred status), but will "
+"likely be broken out."
+msgstr ""
+
+#: ../../docs/roadmap.rst:82
+msgid "Metadata Extensions"
+msgstr ""
+
+#: ../../docs/roadmap.rst:86
+msgid ""
+"A system that supports extending metadata with custom metadata. "
+":pep:`426` was originally scoped to include this.  It's unclear, if it "
+"will remain, or be broken out."
+msgstr ""
+
+#: ../../docs/roadmap.rst:90
+msgid ""
+"`pypa/interoperability-peps/labels/Extensions <https://github.com/pypa"
+"/interoperability-peps/labels/Extensions>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:93
+msgid ""
+"Currently covered in :pep:`426` (which is in Deferred status), but may be"
+" broken out."
+msgstr ""
+
+#: ../../docs/roadmap.rst:100
+msgid "Standard Python Extensions"
+msgstr ""
+
+#: ../../docs/roadmap.rst:104
+msgid ""
+"Assuming we support an extensions system, then this describes a set of "
+"standard extensions for Python packages.  This is currently specified in "
+":pep:`459`."
+msgstr ""
+
+#: ../../docs/roadmap.rst:108
+msgid ""
+"`pep-0459-standard-metadata-extensions.rst <https://github.com/pypa"
+"/interoperability-peps/blob/master/pep-0459-standard-metadata-"
+"extensions.rst>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:111
+msgid ""
+"`pypa/interoperability-peps/labels/PEP459 <https://github.com/pypa"
+"/interoperability-peps/labels/PEP459>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:114
+msgid ""
+":pep:`459` is `in Deferred status "
+"<https://www.python.org/dev/peps/pep-0459/#pep-deferral>`_."
+msgstr ""
+
+#: ../../docs/roadmap.rst:121
+msgid "Build Neutrality"
+msgstr ""
+
+#: ../../docs/roadmap.rst:125
+msgid ""
+"An attempt to specify a tool-neutral Build API, that pip will adopt, with"
+" the goal being to easily support other build systems besides "
+"setuptools/distutils."
+msgstr ""
+
+#: ../../docs/roadmap.rst:129
+msgid ""
+"`pypa/interoperability-peps/labels/Build-Neutrality "
+"<https://github.com/pypa/interoperability-peps/labels/Build-Neutrality>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:132
+msgid ""
+"Discussions are ongoing on distutils-sig.  Some proposals involve "
+"solutions that solve sdist 2.0 and build neutrality with a single plan. "
+"There is also some debate whether to initially support neutrality using "
+"``setup.py`` as the interface, or to use something completely new."
+msgstr ""
+
+#: ../../docs/roadmap.rst:141
+msgid "Source Distribution 2.0"
+msgstr ""
+
+#: ../../docs/roadmap.rst:145
+msgid ""
+"A specification for a new sdist format.  The current setuptools sdist "
+"format has no formal specification.  It's up for debate whether this new "
+"format will be numbered \"1.0\" or \"2.0\"."
+msgstr ""
+
+#: ../../docs/roadmap.rst:149
+msgid ""
+"`pypa/interoperability-peps/labels/sdist-2.0 <https://github.com/pypa"
+"/interoperability-peps/labels/sdist-2.0>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:152
+msgid ""
+"Discussions are ongoing on distutils-sig.  Some proposals involve "
+"solutions that solve sdist 2.0 and build neutrality with a single plan. A"
+" central part of the discussion is whether sdists should (or can) be "
+"required to hold static metadata (vs. requiring a build command to "
+"generate the metadata)."
+msgstr ""
+
+#: ../../docs/roadmap.rst:162
+msgid "Installation Database Updates"
+msgstr ""
+
+#: ../../docs/roadmap.rst:166
+msgid ""
+"An update to the \"dist-info\" installation database format introduced in"
+" :pep:`376`."
+msgstr ""
+
+#: ../../docs/roadmap.rst:169
+msgid ""
+"`pypa/interoperability-peps/labels/Installation-Database "
+"<https://github.com/pypa/interoperability-peps/labels/Installation-"
+"Database>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:172 ../../docs/roadmap.rst:189
+#: ../../docs/roadmap.rst:206
+msgid "No current activity."
+msgstr ""
+
+#: ../../docs/roadmap.rst:178
+msgid "Wheel Updates"
+msgstr ""
+
+#: ../../docs/roadmap.rst:182
+msgid ""
+"An update to the wheel spec (:pep:`427`) largely to handle a tagging "
+"scheme for linux binary wheels, although there are various other issues "
+"that people have raised."
+msgstr ""
+
+#: ../../docs/roadmap.rst:186
+msgid ""
+"`pypa/interoperability-peps/labels/Wheel <https://github.com/pypa"
+"/interoperability-peps/labels/Wheel>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:195
+msgid "Common Filename Scheme"
+msgstr ""
+
+#: ../../docs/roadmap.rst:199
+msgid ""
+"This would be a replacement for :pep:`425` that increases scope to also "
+"cover the naming scheme used for dist-info directories, installation DB "
+"metadata directories, sdist archives and wheel archives."
+msgstr ""
+
+#: ../../docs/roadmap.rst:203
+msgid ""
+"`pypa/interoperability-peps/issues/48 <https://github.com/pypa"
+"/interoperability-peps/issues/48>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:210
+msgid "Tools & Systems"
+msgstr ""
+
+#: ../../docs/roadmap.rst:215
+msgid "pip Dependency Resolution"
+msgstr ""
+
+#: ../../docs/roadmap.rst:219
+msgid ""
+"pip currently has an overly-simplistic \"first found, wins\" resolver "
+"that ignores constraints already present in the environment."
+msgstr ""
+
+#: ../../docs/roadmap.rst:222
+msgid "`pip/issues/988 <https://github.com/pypa/pip/issues/988>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:224
+msgid ""
+"The Packaging Working Group of the Python Software Foundation "
+"`successfully applied for funding "
+"<https://wiki.python.org/psf/PackagingWG#Dependency_resolver_and_user_experience_improvements_for_pip>`_"
+" to finish the overhaul of the resolver, and a team is working on the "
+"project. A pip release including the new resolver is expected in 2020."
+msgstr ""
+
+#: ../../docs/roadmap.rst:234
+msgid "pip upgrade [--all]"
+msgstr ""
+
+#: ../../docs/roadmap.rst:238
+msgid ""
+"Many pip users want a non-recursive upgrade (``pip upgrade -U`` is "
+"currently recursive), and many users also want some sort of ``pip upgrade"
+" --all`` command."
+msgstr ""
+
+#: ../../docs/roadmap.rst:242
+msgid "`pip/issues/59 <https://github.com/pypa/pip/issues/59>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:244
+msgid ""
+"Ongoing discussion in `pip/issues/59 "
+"<https://github.com/pypa/pip/issues/59>`_.  A non-recursive "
+"implementation of ``pip upgrade`` exists in `pip/pull/3194 "
+"<https://github.com/pypa/pip/pull/3194>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:253
+msgid "Vendor distutils into setuptools"
+msgstr ""
+
+#: ../../docs/roadmap.rst:257
+msgid ""
+"Possibly \"vendor\" a copy of distutils into setuptools, so that "
+"setuptools is free to evolve independent of the Standard Library copy of "
+"distutils."
+msgstr ""
+
+#: ../../docs/roadmap.rst:261
+msgid ""
+"`setuptools/issues/417/adopt-distutils "
+"<https://bitbucket.org/pypa/setuptools/issues/417/adopt-distutils>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:264
+msgid "Under consideration."
+msgstr ""
+
+#: ../../docs/roadmap.rst:270
+msgid "PyPI Integrate TUF"
+msgstr ""
+
+#: ../../docs/roadmap.rst:274
+msgid ""
+"An effort to integrate PyPI with the `\"The Update Framework\" (TUF) "
+"<https://theupdateframework.github.io>`_.  This is specified in "
+":pep:`458`"
+msgstr ""
+
+#: ../../docs/roadmap.rst:277
+msgid ""
+"`pep-0458-tuf-online-keys.rst <https://github.com/pypa/interoperability-"
+"peps/blob/master/pep-0458-tuf-online-keys.rst>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:280
+msgid ""
+"`pypa/interoperability-peps/labels/PEP458 <https://github.com/pypa"
+"/interoperability-peps/labels/PEP458>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:283
+msgid ""
+":pep:`458` is in Accepted status. The PSF's Packaging Working Group "
+"received funding from Facebook and `a team is currently working on "
+"implementing TUF on PyPI "
+"<https://wiki.python.org/psf/PackagingWG#Warehouse:_Facebook_gift>`_."
+msgstr ""
+
+#: ../../docs/roadmap.rst:290
+msgid "Documentation and Governance"
+msgstr ""
+
+#: ../../docs/roadmap.rst:295
+msgid "New PyPUG Tutorials"
+msgstr ""
+
+#: ../../docs/roadmap.rst:299
+msgid ""
+"An attempt to improve the 2 primary PyPUG tutorials for readability and "
+"style, to coincide with the launch of the new Warehouse-backed PyPI."
+msgstr ""
+
+#: ../../docs/roadmap.rst:303
+msgid "`warehouse/issues/729 <https://github.com/pypa/warehouse/issues/729>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:305
+msgid ""
+"Nicole (from Warehouse team) and Marcus are working together on this "
+"along with a team of volunteer writers; see `pypa/python-packaging-user-"
+"guide/tree/master/source/tutorials <https://github.com/pypa/python-"
+"packaging-user-guide/tree/master/source/tutorials>`_."
+msgstr ""
+
+#: ../../docs/roadmap.rst:313
+msgid "Specs vs PEPs"
+msgstr ""
+
+#: ../../docs/roadmap.rst:317
+msgid ""
+"An attempt to present finalized PEPs as non-numbered \"Specifications\" "
+"that are organized together in the PyPUG.  As it is, it's too hard to "
+"know what really represents the finalized set of PyPA PEPs."
+msgstr ""
+
+#: ../../docs/roadmap.rst:321
+msgid "`pypa.io/issues/11 <https://github.com/pypa/pypa.io/issues/11>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:323
+msgid ""
+"Nick Coghlan has started working on migrating to this approach, using "
+"``pypa.io/specifications/`` as the stable base URL."
+msgstr ""
+
+#: ../../docs/roadmap.rst:330
+msgid "PyPA PEP Process"
+msgstr ""
+
+#: ../../docs/roadmap.rst:334
+msgid ""
+"At its core, PyPA is consistent with the Python PEP process, but around "
+"the edges, it has a unique workflow that should be documented, with the "
+"goal being to increase involvement.  This process may change if the "
+"Python PEP database migrates to using GitLab as specified in :pep:`507`."
+msgstr ""
+
+#: ../../docs/roadmap.rst:340
+msgid ""
+"`interoperability-peps/issues/53 <https://github.com/pypa"
+"/interoperability-peps/issues/53>`_"
+msgstr ""
+
+#: ../../docs/roadmap.rst:344
+msgid "This is being worked on in conjunction with the :ref:`Specs vs PEPs` work."
+msgstr ""
+
+#: ../../docs/roadmap.rst:351
+msgid "PyPA Governance"
+msgstr ""
+
+#: ../../docs/roadmap.rst:355
+msgid ""
+":pep:`609` suggests a governing model that aims to formalize existing "
+"practices."
+msgstr ""
+
+#: ../../docs/roadmap.rst:359
+msgid ""
+":pep:`609` is approved. The PyPA and the Steering Council will continue "
+"to discuss and refine the scope of the PEP process, how and when it "
+"applies to packaging-specific standards and architecture decisions, and "
+"how we all might adapt governance processes further."
+msgstr ""
+

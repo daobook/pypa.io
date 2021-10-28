@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, PyPA
+# This file is distributed under the same license as the PyPA package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PyPA \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-28 22:58+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: ../../docs/index.rst:3
+msgid "Python Packaging Authority"
+msgstr "Python 包装管理机构"
+
+#: ../../docs/index.rst:6
+msgid ""
+"The Python Packaging Authority (PyPA) is a working group that maintains a"
+" core set of software projects used in Python packaging."
+msgstr ""
+"Python 包装管理机构（Python Packaging Authority，简称 PyPA）是一个工作组，"
+"负责维护 Python 包管理中使用的一组核心软件项目。"
+
+#: ../../docs/index.rst:15
+msgid ""
+"The software developed through the PyPA is used to package, share, and "
+"install Python software and to interact with indexes of downloadable "
+"Python software such as `PyPI <https://pypi.org>`_, the Python Package "
+"Index. Click the logo below to download pip, the most prominent software "
+"used to interact with PyPI."
+msgstr ""
+"通过 PyPA 开发的软件用于打包、共享和安装 Python 软件，"
+"并与可下载的 Python 软件的索引互动，如 `PyPI <https://pypi.org>`_，Python 软件包索引。"
+"点击下面的标志可以下载 pip，这是用来与 PyPI 互动的最主要的软件。"
+
+#: ../../docs/index.rst:24
+msgid ""
+"The PyPA publishes the `Python Packaging User Guide "
+"<https://packaging.python.org>`_, which is **the authoritative resource "
+"on how to package, publish, and install Python projects using current "
+"tools**. The User Guide provides a user introduction to packaging, and "
+"explains how to use these tools. In case you need to package Python with "
+"other languages (for example, in a scientific Python package), the user "
+"guide also offers basic information about and links to available third-"
+"party packaging options (for example, `conda-forge <https://conda-"
+"forge.org/>`_)."
+msgstr ""
+"PyPA 发布了 `Python 打包用户指南 <https://packaging.python.org>`_，"
+"它是 **关于如何使用当前工具打包、发布和安装 Python 项目的权威资源**。"
+"用户指南提供了一个关于打包的用户介绍，并解释了如何使用这些工具。"
+"如果你需要将 Python 与其它语言打包 (例如，在科学 Python 包中)，"
+"用户指南还提供了关于可用的第三方打包选项 "
+"（例如，`conda-forge <https://conda-forge.org/>`_）的基本信息和链接。"
+
+#: ../../docs/index.rst:34
+msgid ""
+"For a listing of PyPA's important projects, see :ref:`the key projects "
+"list <pypug:pypa_projects>`. The PyPA hosts projects on `GitHub "
+"<https://github.com/pypa>`_ and `Bitbucket "
+"<https://bitbucket.org/pypa>`_, and discusses issues in `the Packaging "
+"category on discuss.python.org <https://discuss.python.org/c/packaging>`_"
+" and on the `distutils-sig <http://mail.python.org/mailman/listinfo"
+"/distutils-sig>`_ mailing list."
+msgstr ""
+"关于 PyPA 的重要项目清单，请参见 "
+":ref:`关键项目清单 <pypug:pypa_projects>`。"
+"PyPA 在 `GitHub <https://github.com/pypa>`_ 和 "
+"`Bitbucket <https://bitbucket.org/pypa>`_ 上托管项目，"
+"并在 `在 discuss.python.org 上的包类别 "
+"<https://discuss.python.org/c/packaging>`_ 和 `distutils-sig "
+"<http://mail.python.org/mailman/listinfo/distutils-sig>`_ 邮件列表上讨论问题。"
+
+#: ../../docs/index.rst:43
+msgid ""
+"For a user introduction to packaging, see the `Python Packaging User "
+"Guide <https://packaging.python.org>`_"
+msgstr ""
+"关于打包的用户介绍，请参见 `Python 打包用户指南 <https://packaging.python.org>`_"
+
