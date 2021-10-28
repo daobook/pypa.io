@@ -1,0 +1,459 @@
+<!doctype html>
+<html class="no-js" lang="zh_CN">
+  <head><meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="color-scheme" content="light dark"><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+<link rel="index" title="索引" href="genindex.html" /><link rel="search" title="搜索" href="search.html" /><link rel="next" title="PyPA 成员，以及如何加入" href="members.html" /><link rel="prev" title="演示文稿 &amp; 文章" href="presentations.html" />
+
+    <meta name="generator" content="sphinx-4.2.0, furo 2021.10.09"/>
+        <title>打包历史 - PyPA 文档</title>
+      <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo.css?digest=0254c309f5cadf746f1a613e7677379ac9c8cdcd" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/furo-extensions.css?digest=16fb25fabf47304eee183a5e9af80b1ba98259b1" />
+    
+    
+
+
+<style>
+  body {
+    --color-code-background: #f8f8f8;
+  --color-code-foreground: black;
+  
+  }
+  body[data-theme="dark"] {
+    --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+  }
+  @media (prefers-color-scheme: dark) {
+    body:not([data-theme="light"]) {
+      --color-code-background: #202020;
+  --color-code-foreground: #d0d0d0;
+  
+    }
+  }
+</style></head>
+  <body>
+    <script>
+      document.body.dataset.theme = localStorage.getItem("theme") || "auto";
+    </script>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="svg-toc" viewBox="0 0 24 24">
+    <title>Contents</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" />
+      <line x1="4" y1="6" x2="20" y2="6" />
+      <line x1="10" y1="12" x2="20" y2="12" />
+      <line x1="6" y1="18" x2="20" y2="18" />
+    </svg>
+  </symbol>
+  <symbol id="svg-menu" viewBox="0 0 24 24">
+    <title>Menu</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-menu">
+      <line x1="3" y1="12" x2="21" y2="12"></line>
+      <line x1="3" y1="6" x2="21" y2="6"></line>
+      <line x1="3" y1="18" x2="21" y2="18"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+    <title>Expand</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather-chevron-right">
+      <polyline points="9 18 15 12 9 6"></polyline>
+    </svg>
+  </symbol>
+  <symbol id="svg-sun" viewBox="0 0 24 24">
+    <title>Light mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="feather-sun">
+      <circle cx="12" cy="12" r="5"></circle>
+      <line x1="12" y1="1" x2="12" y2="3"></line>
+      <line x1="12" y1="21" x2="12" y2="23"></line>
+      <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+      <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+      <line x1="1" y1="12" x2="3" y2="12"></line>
+      <line x1="21" y1="12" x2="23" y2="12"></line>
+      <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+      <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+    </svg>
+  </symbol>
+  <symbol id="svg-moon" viewBox="0 0 24 24">
+    <title>Dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-moon">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z" />
+    </svg>
+  </symbol>
+  <symbol id="svg-sun-half" viewBox="0 0 24 24">
+    <title>Auto light/dark mode</title>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="icon-tabler-shadow">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <circle cx="12" cy="12" r="9" />
+      <path d="M13 12h5" />
+      <path d="M13 15h4" />
+      <path d="M13 18h1" />
+      <path d="M13 9h4" />
+      <path d="M13 6h1" />
+    </svg>
+  </symbol>
+</svg>
+
+<input type="checkbox" class="sidebar-toggle" name="__navigation" id="__navigation">
+<input type="checkbox" class="sidebar-toggle" name="__toc" id="__toc">
+<label class="overlay sidebar-overlay" for="__navigation">
+  <div class="visually-hidden">Hide navigation sidebar</div>
+</label>
+<label class="overlay toc-overlay" for="__toc">
+  <div class="visually-hidden">Hide table of contents sidebar</div>
+</label>
+
+
+
+<div class="page">
+  <header class="mobile-header">
+    <div class="header-left">
+      <label class="nav-overlay-icon" for="__navigation">
+        <div class="visually-hidden">Toggle site navigation sidebar</div>
+        <i class="icon"><svg><use href="#svg-menu"></use></svg></i>
+      </label>
+    </div>
+    <div class="header-center">
+      <a href="index.html"><div class="brand">PyPA  文档</div></a>
+    </div>
+    <div class="header-right">
+      <div class="theme-toggle-container theme-toggle-header">
+        <button class="theme-toggle">
+          <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+          <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+          <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+          <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+        </button>
+      </div>
+      <label class="toc-overlay-icon toc-header-icon" for="__toc">
+        <div class="visually-hidden">Toggle table of contents sidebar</div>
+        <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+      </label>
+    </div>
+  </header>
+  <aside class="sidebar-drawer">
+    <div class="sidebar-container">
+      
+      <div class="sidebar-sticky"><a class="sidebar-brand" href="index.html">
+  
+  
+  <span class="sidebar-brand-text">PyPA  文档</span>
+  
+</a><form class="sidebar-search-container" method="get" action="search.html" role="search">
+  <input class="sidebar-search" placeholder=搜索 name="q" aria-label="搜索">
+  <input type="hidden" name="check_keywords" value="yes">
+  <input type="hidden" name="area" value="default">
+</form>
+<div id="searchbox"></div><div class="sidebar-scroll"><div class="sidebar-tree">
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="future.html">PyPA 目标</a></li>
+<li class="toctree-l1"><a class="reference internal" href="specifications.html">PyPA 规范</a></li>
+<li class="toctree-l1"><a class="reference internal" href="roadmap.html">PyPA 路线图</a></li>
+<li class="toctree-l1"><a class="reference internal" href="help.html">如何提供帮助</a></li>
+<li class="toctree-l1"><a class="reference internal" href="presentations.html">演示文稿 &amp; 文章</a></li>
+<li class="toctree-l1 current current-page"><a class="current reference internal" href="#">打包历史</a></li>
+<li class="toctree-l1"><a class="reference internal" href="members.html">PyPA 成员，以及如何加入</a></li>
+<li class="toctree-l1"><a class="reference internal" href="code-of-conduct.html">行为准则</a></li>
+</ul>
+
+</div>
+</div>
+      </div>
+      
+    </div>
+  </aside>
+  <div class="main">
+    <div class="content">
+      <div class="article-container">
+        <div class="content-icon-container">
+          <div class="theme-toggle-container theme-toggle-content">
+            <button class="theme-toggle">
+              <div class="visually-hidden">Toggle Light / Dark / Auto color theme</div>
+              <svg class="theme-icon-when-auto"><use href="#svg-sun-half"></use></svg>
+              <svg class="theme-icon-when-dark"><use href="#svg-moon"></use></svg>
+              <svg class="theme-icon-when-light"><use href="#svg-sun"></use></svg>
+            </button>
+          </div>
+          <label class="toc-overlay-icon toc-content-icon" for="__toc">
+            <div class="visually-hidden">Toggle table of contents sidebar</div>
+            <i class="icon"><svg><use href="#svg-toc"></use></svg></i>
+          </label>
+        </div>
+        <article role="main">
+          <section id="packaging-history">
+<span id="history"></span><h1>打包历史<a class="headerlink" href="#packaging-history" title="永久链接至标题">¶</a></h1>
+<section id="id1">
+<h2>2021<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.python.org/psf/records/board/minutes/2021-01-27/#new-business">PyPA 成为 PSF 的财政赞助者</a></p></li>
+</ul>
+</section>
+<section id="id2">
+<h2>2020<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://groups.google.com/d/msg/pypa-dev/twf9HCGfv3k/t2HJwzF-AgAJ">Old pypa-dev Google Group decommissioned</a> to focus conversation
+in Discourse forum and distutils-sig list.</p></li>
+<li><p><a class="reference external" href="https://pyfound.blogspot.com/2020/03/new-pip-resolver-to-roll-out-this-year.html">Packaging Working Group used MOSS and CZI funding to improve pip
+dependency resolver</a>.</p></li>
+<li><p><span class="target" id="index-0"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0609"><strong>PEP 609</strong></a> created and accepted, creating PyPA governance model.</p></li>
+<li><p><a class="reference external" href="https://pyfound.blogspot.com/2020/11/pip-20-3-new-resolver.html">New pip dependency resolver released</a>.</p></li>
+</ul>
+</section>
+<section id="id3">
+<h2>2019<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://pyfound.blogspot.com/2019/03/commencing-security-accessibility-and.html">OTF grant for PyPI awarded to PSF</a>, team worked on security,
+localization, and accessibility improvements to Warehouse.</p></li>
+</ul>
+</section>
+<section id="id4">
+<h2>2018<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>Warehouse <a class="reference external" href="https://mail.python.org/mm3/archives/list/distutils-sig@python.org/thread/YREMU56QKRMTTFBFVFJ2B4EHOEKOJZFJ/">superseded and replaced legacy PyPI</a>.</p></li>
+<li><p>Warehouse installation at pypi.org <a class="reference external" href="https://mail.python.org/pipermail/python-announce-list/2018-March/011883.html">entered beta phase</a>.</p></li>
+<li><p><span class="target" id="index-1"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0566"><strong>PEP 566</strong></a> accepted, adding better package metadata.</p></li>
+</ul>
+</section>
+<section id="id5">
+<h2>2017<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">pipenv</span></code>-based application dependency management tutorial <a class="reference external" href="https://github.com/pypa/python-packaging-user-guide/pull/369">added
+to PyPUG</a>.</p></li>
+<li><p><a class="reference external" href="https://pyfound.blogspot.com/2017/11/the-psf-awarded-moss-grant-pypi.html">MOSS grant for PyPI</a> awarded to PSF, team began in December to
+focus on replacing legacy PyPI.</p></li>
+<li><p><span class="target" id="index-2"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0517"><strong>PEP 517</strong></a> accepted (<code class="docutils literal notranslate"><span class="pre">setup.py</span></code>-independent build system backends).</p></li>
+<li><p>Legacy pypi.python.org upload API <a class="reference external" href="https://mail.python.org/pipermail/distutils-sig/2017-July/030849.html">switched off</a>.</p></li>
+</ul>
+</section>
+<section id="id6">
+<h2>2016<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> version 9 (<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release notes</a>) started respecting the
+<code class="docutils literal notranslate"><span class="pre">Requires-Python</span> <span class="pre">metadata</span></code> field.</p></li>
+<li><p>Package uploads <a class="reference external" href="https://mail.python.org/pipermail/distutils-sig/2017-June/030766.html">started defaulting to pypi.org</a>.</p></li>
+<li><p>pypi.org <a class="reference external" href="https://mail.python.org/pipermail/distutils-sig/2016-August/029355.html">deployed</a>
+as a soft-launch with core functionality.</p></li>
+<li><p><span class="target" id="index-3"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0518"><strong>PEP 518</strong></a> accepted (defining the <code class="docutils literal notranslate"><span class="pre">pyproject.toml</span></code> format for static
+build dependency declarations)</p></li>
+<li><p>PSF <a class="reference external" href="https://pyfound.blogspot.com.au/2016/04/the-psf-has-hired-it-manager.html">hired an infrastructure manager</a>.</p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> v8.1 added <code class="docutils literal notranslate"><span class="pre">manylinux1</span></code> support (<span class="target" id="index-4"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0513"><strong>PEP 513</strong></a>, <a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip
+release notes</a>), PyPI starts allowing Linux wheel files</p></li>
+<li><p><span class="target" id="index-5"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0513"><strong>PEP 513</strong></a> accepted (defining the <code class="docutils literal notranslate"><span class="pre">manylinux1</span></code> platform ABI).</p></li>
+<li><p>Version 8 of <a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> (<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release notes</a>) integrated artifact hash checking
+(previously dependent on the third-party project <a class="reference external" href="https://pypi.org/project/peep/">peep</a>).</p></li>
+</ul>
+</section>
+<section id="id7">
+<h2>2015<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> (v7) started caching built <a class="reference external" href="https://packaging.python.org/glossary/#term-Wheel" title="(在 Python Packaging User Guide)"><span class="xref std std-term">wheels</span></a>, and
+installing from them, instead of installing directly from <a class="reference external" href="https://packaging.python.org/glossary/#term-Source-Distribution-or-sdist" title="(在 Python Packaging User Guide)"><span class="xref std std-term">sdists</span></a> (<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release notes</a>).</p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> (v7) started supporting <code class="docutils literal notranslate"><span class="pre">--install-option</span></code> and
+<code class="docutils literal notranslate"><span class="pre">--global-option</span></code> per requirement in requirement files (<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release notes</a>).</p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#setuptools" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">setuptools</span></a> (v18.3) now allows disabling of the manipulation of the
+sys.path during the processing of the easy-install.pth file.</p></li>
+<li><p><span class="target" id="index-6"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0470"><strong>PEP 470</strong></a>, which deprecated external, non-PyPI hosting, was
+accepted.</p></li>
+<li><p><span class="target" id="index-7"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0503"><strong>PEP 503</strong></a> published to standardise the PyPI simple repository API.</p></li>
+<li><p><span class="target" id="index-8"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0508"><strong>PEP 508</strong></a> published to standardise the specification format for individual dependencies.</p></li>
+</ul>
+</section>
+<section id="id8">
+<h2>2014<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#setuptools" title="(在 Python Packaging User Guide)"><span>setuptools</span></a> v8.0 and <a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span>pip</span></a> v6.0 (<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release
+notes</a>) implemented <span class="target" id="index-9"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0440"><strong>PEP 440</strong></a> (Python’s new versioning scheme).
+Both projects now depend on the project <a class="reference external" href="https://packaging.python.org/key_projects/#packaging" title="(在 Python Packaging User Guide)"><span>packaging</span></a> for
+this support.</p></li>
+<li><p><span class="target" id="index-10"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0477"><strong>PEP 477</strong></a> backported <span class="target" id="index-11"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0453"><strong>PEP 453</strong></a> into Python 2.7.9.</p></li>
+<li><p><span class="target" id="index-12"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0453"><strong>PEP 453</strong></a>: Being able to bootstrap <code class="docutils literal notranslate"><span class="pre">pip</span></code> into Python 3.4.</p></li>
+<li><p><a class="reference external" href="https://bugs.python.org/issue19407">https://bugs.python.org/issue19407</a>: Modern Installation and Packaging guides on
+python.org.</p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#virtualenv" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">virtualenv</span></a> (v1.11) started installing pip &amp; setuptools using wheels.</p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> (v1.5.1) became available as a cross platform wheel on
+PyPI (<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release notes</a>).</p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> (v1.5.1) stop requiring <a class="reference external" href="https://packaging.python.org/key_projects/#setuptools" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">setuptools</span></a> to install
+wheels (<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release notes</a>).</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">get-pip.py</span></code> doesn’t require setuptools to be installed first</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">get-pip.py</span></code> installs setuptools for you, if you don’t already have it</p></li>
+<li><p><span class="target" id="index-13"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0449"><strong>PEP 449</strong></a>: Removal of the DNS-based mirror autodiscovery</p></li>
+<li><p><a class="reference external" href="https://github.com/pypa/pip/pull/1556">Refactored the pip docs</a> to be
+consistent with the <a class="reference external" href="https://gist.github.com/qwcode/8431828">“PyPA Standard Docs Template”</a></p></li>
+<li><p>PyPUG moved to the packaging.python.org subdomain.</p></li>
+<li><p><span class="target" id="index-14"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0440"><strong>PEP 440</strong></a> published to standardise version descriptions and filtering.</p></li>
+</ul>
+</section>
+<section id="id9">
+<h2>2013<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#distlib" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">distlib</span></a> started releasing to PyPI, and <a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> began
+depending on it (<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release notes</a>).</p></li>
+<li><p>Core PyPI infrastructure relocated to OSU/OSL (with significantly
+increased resources)</p></li>
+<li><p>The core packaging projects were collected under the <a class="reference external" href="https://packaging.python.org/glossary/#term-Python-Packaging-Authority-PyPA" title="(在 Python Packaging User Guide)"><span>Python Packaging
+Authority (PyPA)</span></a> accounts on <a class="reference external" href="https://github.com/pypa">GitHub</a> and <a class="reference external" href="https://bitbucket.org/pypa/">Bitbucket</a> <a class="footnote-reference brackets" href="#id17" id="id10">2</a></p></li>
+<li><p>Distribute merged back into <a class="reference external" href="https://packaging.python.org/key_projects/#setuptools" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">setuptools</span></a>, and <a class="reference external" href="https://packaging.python.org/key_projects/#setuptools" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">setuptools</span></a> development
+migrated to the PyPA BitBucket account. <a class="footnote-reference brackets" href="#id16" id="id11">1</a> <a class="footnote-reference brackets" href="#id20" id="id12">5</a></p></li>
+<li><p>PyPI started supporting clients using verified SSL with standard cert bundles.</p></li>
+<li><p>PyPI forced web users over to SSL.</p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> (v1.3) and <a class="reference external" href="https://packaging.python.org/key_projects/#setuptools" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">easy_install</span></a> (v0.7) use
+verified SSL by default (<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release notes</a>)</p></li>
+<li><p>easy_install supports additional hashes beyond md5 (pip already did)</p></li>
+<li><p><a class="reference external" href="https://mail.python.org/pipermail/distutils-sig/2013-May/020848.html">Fastly CDN enabled</a> for PyPI (donated)</p></li>
+<li><p>Restructured the <a class="reference external" href="https://pip.pypa.io/en/latest/installing/">pip install docs</a> to clarify that
+setuptools and pip are the “base” of the bootstrapping hierarchy</p></li>
+<li><p>setuptools available as a cross platform wheel on PyPI</p></li>
+<li><p><span class="target" id="index-15"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0438"><strong>PEP 438</strong></a> and the associated pip changes.</p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> (v1.4) added support for building and installing <a class="reference external" href="https://packaging.python.org/glossary/#term-Wheel" title="(在 Python Packaging User Guide)"><span class="xref std std-term">wheels</span></a>
+(<a class="reference external" href="https://pip.pypa.io/en/stable/news/">pip release notes</a>)</p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/glossary/#term-Python-Packaging-Authority-PyPA" title="(在 Python Packaging User Guide)"><span>Python Packaging Authority (PyPA)</span></a> became the maintainer for the
+<a class="reference external" href="https://packaging.python.org">Python Packaging User Guide</a>, which was forked from the “Hitchhiker’s Guide
+to Packaging”.</p></li>
+<li><p>Packaging Dev and User Summits were held at Pycon 2013 to share ideas on the
+future of packaging. <a class="footnote-reference brackets" href="#id18" id="id13">3</a> <a class="footnote-reference brackets" href="#id19" id="id14">4</a></p></li>
+<li><p><span class="target" id="index-16"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0425"><strong>PEP 425</strong></a> and <span class="target" id="index-17"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0427"><strong>PEP 427</strong></a> were accepted.  Together,
+they specify a built-package format for Python called <a class="reference external" href="https://packaging.python.org/glossary/#term-Wheel" title="(在 Python Packaging User Guide)"><span class="xref std std-term">wheels</span></a>.</p></li>
+</ul>
+</section>
+<section id="before-2013">
+<h2>Before 2013<a class="headerlink" href="#before-2013" title="永久链接至标题">¶</a></h2>
+<p><strong>2012-06-19</strong>: The effort to include “Distutils2/Packaging” in Python 3.3 was
+abandoned due lack of involvement. <a class="footnote-reference brackets" href="#id21" id="id15">6</a></p>
+<p><strong>2011-02-28</strong>: The <a class="reference external" href="https://packaging.python.org/glossary/#term-Python-Packaging-Authority-PyPA" title="(在 Python Packaging User Guide)"><span>Python Packaging Authority (PyPA)</span></a> is created
+to take over the maintenance of <a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> and <a class="reference external" href="https://packaging.python.org/key_projects/#virtualenv" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">virtualenv</span></a> from Ian Bicking,
+led by Carl Meyer, Brian Rosner and Jannis Leidel. Other proposed names were
+“ianb-ng”, “cabal”, “pack” and “Ministry of Installation”.</p>
+<p><strong>2008</strong>: <a class="reference external" href="https://pypi.org/pypi/distribute">distribute</a> was forked from <a class="reference external" href="https://packaging.python.org/key_projects/#setuptools" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">setuptools</span></a> by Tarek Ziade, in an
+effort to create a more open project.</p>
+<p><strong>2008</strong>: <a class="reference external" href="https://packaging.python.org/key_projects/#pip" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">pip</span></a> was introduced by Ian Bicking as an alternative to
+<code class="docutils literal notranslate"><span class="pre">easy_install</span></code> (the installer included with <a class="reference external" href="https://packaging.python.org/key_projects/#setuptools" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">setuptools</span></a>)</p>
+<p><strong>2007</strong>: <a class="reference external" href="https://packaging.python.org/key_projects/#virtualenv" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">virtualenv</span></a> was introduced by Ian Bicking, which allowed users
+to create isolated Python environments based on a central system installation of
+Python.</p>
+<p><strong>2006</strong>: <a class="reference external" href="https://packaging.python.org/key_projects/#buildout" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">buildout</span></a> was introduced by Jim Fulton, with the goal to create
+a system for repeatable installations of potentially complex projects.</p>
+<p><strong>2005</strong>: Package files could be hosted on PyPI for the first time,
+<a class="reference external" href="https://mail.python.org/pipermail/catalog-sig/2005-March/000518.html">following the sprints at PyCon US 2005</a>.</p>
+<p><strong>2004</strong>: <a class="reference external" href="https://packaging.python.org/key_projects/#setuptools" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">setuptools</span></a> was introduced by Phillip Eby, which included the
+<cite>Egg &lt;pypug:Egg&gt;</cite> format, and the ability to declare and automatically install
+dependencies.</p>
+<p><strong>2003</strong>: <a class="reference external" href="https://packaging.python.org/glossary/#term-Python-Package-Index-PyPI" title="(在 Python Packaging User Guide)"><span class="xref std std-term">PyPI</span></a> was up and running.</p>
+<p><strong>2002</strong>: Richard Jones started work on <a class="reference external" href="https://packaging.python.org/glossary/#term-Python-Package-Index-PyPI" title="(在 Python Packaging User Guide)"><span class="xref std std-term">PyPI</span></a>, and created <span class="target" id="index-18"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0301"><strong>PEP 301</strong></a> to describe it.</p>
+<p><strong>2001</strong>: <span class="target" id="index-19"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0241"><strong>PEP 241</strong></a> was written to standardize the metadata for distributions.</p>
+<p><strong>2000</strong>: <a class="reference external" href="https://www.python.org/community/sigs/retired/catalog-sig/">catalog-sig</a> was created to discuss creating a centralized index of
+distributions.</p>
+<p><strong>2000</strong>: <a class="reference external" href="https://packaging.python.org/key_projects/#distutils" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">distutils</span></a> was added to the Python standard library in Python 1.6.</p>
+<p><strong>1998</strong>: The <a class="reference external" href="https://www.python.org/community/sigs/current/distutils-sig/">distutils-sig</a> dicussion list was created to discuss the
+development of <a class="reference external" href="https://packaging.python.org/key_projects/#distutils" title="(在 Python Packaging User Guide)"><span class="xref std std-ref">distutils</span></a>.</p>
+<hr class="docutils"/>
+<dl class="footnote brackets">
+<dt class="label" id="id16"><span class="brackets"><a class="fn-backref" href="#id11">1</a></span></dt>
+<dd><p><a class="reference external" href="https://mail.python.org/pipermail/distutils-sig/2013-June/021160.html">https://mail.python.org/pipermail/distutils-sig/2013-June/021160.html</a></p>
+</dd>
+<dt class="label" id="id17"><span class="brackets"><a class="fn-backref" href="#id10">2</a></span></dt>
+<dd><p><a class="reference external" href="https://mail.python.org/pipermail/distutils-sig/2013-March/020224.html">https://mail.python.org/pipermail/distutils-sig/2013-March/020224.html</a></p>
+</dd>
+<dt class="label" id="id18"><span class="brackets"><a class="fn-backref" href="#id13">3</a></span></dt>
+<dd><p><a class="reference external" href="https://us.pycon.org/2013/community/openspaces/packaginganddistributionminisummit/">https://us.pycon.org/2013/community/openspaces/packaginganddistributionminisummit/</a></p>
+</dd>
+<dt class="label" id="id19"><span class="brackets"><a class="fn-backref" href="#id14">4</a></span></dt>
+<dd><p><a class="reference external" href="http://pyvideo.org/video/1731/panel-directions-for-packaging/">http://pyvideo.org/video/1731/panel-directions-for-packaging/</a></p>
+</dd>
+<dt class="label" id="id20"><span class="brackets"><a class="fn-backref" href="#id12">5</a></span></dt>
+<dd><p><a class="reference external" href="https://mail.python.org/pipermail/distutils-sig/2013-March/020127.html">https://mail.python.org/pipermail/distutils-sig/2013-March/020127.html</a></p>
+</dd>
+<dt class="label" id="id21"><span class="brackets"><a class="fn-backref" href="#id15">6</a></span></dt>
+<dd><p><a class="reference external" href="https://mail.python.org/pipermail/python-dev/2012-June/120430.html">https://mail.python.org/pipermail/python-dev/2012-June/120430.html</a></p>
+</dd>
+</dl>
+</section>
+</section>
+
+        </article>
+      </div>
+      <footer>
+        
+        <div class="related-pages">
+          <a class="next-page" href="members.html">
+              <div class="page-info">
+                <div class="context">
+                  <span>下一页</span>
+                </div>
+                <div class="title">PyPA 成员，以及如何加入</div>
+              </div>
+              <svg><use href="#svg-arrow-right"></use></svg>
+            </a>
+          <a class="prev-page" href="presentations.html">
+              <svg><use href="#svg-arrow-right"></use></svg>
+              <div class="page-info">
+                <div class="context">
+                  <span>上一页</span>
+                </div>
+                
+                <div class="title">演示文稿 &amp; 文章</div>
+                
+              </div>
+            </a>
+        </div>
+
+        <div class="related-information">
+              Copyright &#169; 2021, PyPA |
+            Built with <a href="https://www.sphinx-doc.org/">Sphinx</a>
+              and
+              <a class="muted-link" href="https://pradyunsg.me">@pradyunsg</a>'s
+              <a href="https://github.com/pradyunsg/furo">Furo theme</a>.
+        </div>
+        
+      </footer>
+    </div>
+    <aside class="toc-drawer">
+      
+      
+      <div class="toc-sticky toc-scroll">
+        <div class="toc-title-container">
+          <span class="toc-title">
+            目录
+          </span>
+        </div>
+        <div class="toc-tree-container">
+          <div class="toc-tree">
+            <ul>
+<li><a class="reference internal" href="#">打包历史</a><ul>
+<li><a class="reference internal" href="#id1">2021</a></li>
+<li><a class="reference internal" href="#id2">2020</a></li>
+<li><a class="reference internal" href="#id3">2019</a></li>
+<li><a class="reference internal" href="#id4">2018</a></li>
+<li><a class="reference internal" href="#id5">2017</a></li>
+<li><a class="reference internal" href="#id6">2016</a></li>
+<li><a class="reference internal" href="#id7">2015</a></li>
+<li><a class="reference internal" href="#id8">2014</a></li>
+<li><a class="reference internal" href="#id9">2013</a></li>
+<li><a class="reference internal" href="#before-2013">Before 2013</a></li>
+</ul>
+</li>
+</ul>
+
+          </div>
+        </div>
+      </div>
+      
+      
+    </aside>
+  </div>
+</div><script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/scripts/main.js"></script>
+    <script src="_static/translations.js"></script>
+    </body>
+</html>
