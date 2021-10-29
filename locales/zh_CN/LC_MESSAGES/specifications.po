@@ -59,28 +59,31 @@ msgid ""
 "guidance for specification implementors in cases where the corresponding "
 "PEPs have yet to be updated appropriately."
 msgstr ""
+"在相应的 PEP 尚未适当更新的情况下，本节还可包括对规范实施者的澄清、修正和补充指导。"
 
 #: ../../docs/specifications.rst:29
 msgid "Specification Update Process"
-msgstr ""
+msgstr "规范更新过程"
 
 #: ../../docs/specifications.rst:31
 msgid "PyPA interoperability specifications are separated into two categories:"
-msgstr ""
+msgstr "PyPA 的互操作性规范被分为两类:"
 
 #: ../../docs/specifications.rst:33
 msgid ""
 "`Package Distribution Metadata "
 "<https://packaging.python.org/specifications/>`_"
 msgstr ""
+"`软件包发布元数据 "
+"<https://packaging.python.org/specifications/>`_"
 
 #: ../../docs/specifications.rst:34
 msgid "`Package Index Interfaces <https://packaging.python.org/specifications/>`_"
-msgstr ""
+msgstr "`软件包索引接口 <https://packaging.python.org/specifications/>`_"
 
 #: ../../docs/specifications.rst:38
 msgid "Proposing new specifications"
-msgstr ""
+msgstr "提出新的规范"
 
 #: ../../docs/specifications.rst:40
 msgid ""
@@ -88,6 +91,8 @@ msgid ""
 "and submitted as new Standards Track Python Enhancement Proposals in "
 "accordance with :pep:`1`."
 msgstr ""
+"新的互操作性规范的建议应该按照 :pep:`1` 的规定，"
+"作为新的标准追踪 Python 增强建议来制定和提交。"
 
 #: ../../docs/specifications.rst:44
 msgid ""
@@ -97,6 +102,9 @@ msgid ""
 "specification and the role it plays in the wider Python packaging "
 "ecosystem."
 msgstr ""
+"这样的提议必须伴随着对 `Python 包用户指南仓库`_ 的拉取请求，"
+"针对 PyPA 规范部分，增加一个新的小节，"
+"定义新规范的目的和它在更广泛的 Python 包生态系统中的作用。"
 
 #: ../../docs/specifications.rst:51
 msgid ""
@@ -104,6 +112,8 @@ msgid ""
 "a new topic dedicated to the proposal on `Python.org Discourse`_ under "
 "the *packaging* category."
 msgstr ""
+"包相关的 PEP 中的 `Discussions-To` 标题应该设置为 "
+"`Python.org Discourse`_ 上 *包* 类别下专门针对该提案的新主题。"
 
 #: ../../docs/specifications.rst:57
 msgid ""
@@ -115,6 +125,12 @@ msgid ""
 "the default PEP-Delegate for package distribution metadata PEPs, then "
 "they will have the authority to approve (or reject) that PEP."
 msgstr ""
+"每当 distutils-sig 上提出一个新的 PEP 时，"
+"任何 PyPA 核心评审员如果认为自己有合适的经验来对该 PEP 做出最终决定，"
+"可以提出作为该 PEP 的指导委员会代表（或 “PEP 沙皇”）。"
+"如果他们的自荐被其他 PyPA 核心评审员、"
+"PyPI 主要维护者和软件包分发元数据 PEP 的默认 PEP-Delegate 接受，"
+"那么他们将有权批准（或拒绝）该 PEP。"
 
 #: ../../docs/specifications.rst:65
 msgid ""
