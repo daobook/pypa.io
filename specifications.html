@@ -194,38 +194,23 @@
 <p>除了维护 Python 打包工具链的默认实现外，Python 打包机构还负责维护用于定义这些工具之间相互作用的互操作性规范。</p>
 <section id="active-specifications">
 <h2>活跃的规格<a class="headerlink" href="#active-specifications" title="永久链接至标题">¶</a></h2>
-<p>由 Python 打包机构维护的互操作性规范，按照 <span class="target" id="index-4"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0001"><strong>PEP 1</strong></a> 的规定，作为信息性的 Python 增强提案进行跟踪。</p>
+<p>由 Python 打包机构维护的互操作性规范，按照 <span class="target" id="index-5"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0001"><strong>PEP 1</strong></a> 的规定，作为信息性的 Python 增强提案进行跟踪。</p>
 <p>当前有效的规范记录在 <a class="reference external" href="https://packaging.python.org/specifications/" title="(在 Python Packaging User Guide)"><span class="xref std std-doc">PyPA 规范</span></a> 部分的 Python 打包用户指南中。</p>
-<p>This section may also include clarifications, amendments and additional
-guidance for specification implementors in cases where the corresponding
-PEPs have yet to be updated appropriately.</p>
+<p>在相应的 PEP 尚未适当更新的情况下，本节还可包括对规范实施者的澄清、修正和补充指导。</p>
 </section>
 <section id="specification-update-process">
-<h2>Specification Update Process<a class="headerlink" href="#specification-update-process" title="永久链接至标题">¶</a></h2>
-<p>PyPA interoperability specifications are separated into two categories:</p>
+<h2>规范更新过程<a class="headerlink" href="#specification-update-process" title="永久链接至标题">¶</a></h2>
+<p>PyPA 的互操作性规范被分为两类:</p>
 <ul class="simple">
-<li><p><a class="reference external" href="https://packaging.python.org/specifications/">Package Distribution Metadata</a></p></li>
-<li><p><a class="reference external" href="https://packaging.python.org/specifications/">Package Index Interfaces</a></p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/specifications/">软件包发布元数据</a></p></li>
+<li><p><a class="reference external" href="https://packaging.python.org/specifications/">软件包索引接口</a></p></li>
 </ul>
 <section id="proposing-new-specifications">
-<h3>Proposing new specifications<a class="headerlink" href="#proposing-new-specifications" title="永久链接至标题">¶</a></h3>
-<p>Proposals for new interoperability specifications should be formulated and
-submitted as new Standards Track Python Enhancement Proposals in accordance
-with <span class="target" id="index-1"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0001"><strong>PEP 1</strong></a>.</p>
-<p>Such proposals must be accompanied by a pull request to the
-<a class="reference external" href="https://github.com/pypa/packaging.python.org">Python Packaging User Guide repository</a>, against the PyPA Specifications
-section, that adds a new subsection defining the purpose of the new
-specification and the role it plays in the wider Python packaging ecosystem.</p>
-<p>The <code class="docutils literal notranslate"><span class="pre">Discussions-To</span></code> header in packaging related PEPs should be set to
-a new topic dedicated to the proposal on <a class="reference external" href="https://discuss.python.org/">Python.org Discourse</a> under the
-<em>packaging</em> category.</p>
-<p>Whenever a new PEP is put forward on distutils-sig, any PyPA core
-reviewer that believes they are suitably experienced to make the final
-decision on that PEP may offer to serve as the Steering Council’s delegate (or
-“PEP czar”) for that PEP. If their self-nomination is accepted by the
-other PyPA core reviewers, the lead PyPI maintainer and the default
-PEP-Delegate for package distribution metadata PEPs, then they will have the
-authority to approve (or reject) that PEP.</p>
+<h3>提出新的规范<a class="headerlink" href="#proposing-new-specifications" title="永久链接至标题">¶</a></h3>
+<p>新的互操作性规范的建议应该按照 <span class="target" id="index-6"></span><a class="pep reference external" href="https://www.python.org/dev/peps/pep-0001"><strong>PEP 1</strong></a> 的规定，作为新的标准追踪 Python 增强建议来制定和提交。</p>
+<p>这样的提议必须伴随着对 <a class="reference external" href="https://github.com/pypa/packaging.python.org">Python 包用户指南仓库</a> 的拉取请求，针对 PyPA 规范部分，增加一个新的小节，定义新规范的目的和它在更广泛的 Python 包生态系统中的作用。</p>
+<p>包相关的 PEP 中的 <cite>Discussions-To</cite> 标题应该设置为 <a class="reference external" href="https://discuss.python.org/">Python.org Discourse</a> 上 <em>包</em> 类别下专门针对该提案的新主题。</p>
+<p>每当 distutils-sig 上提出一个新的 PEP 时，任何 PyPA 核心评审员如果认为自己有合适的经验来对该 PEP 做出最终决定，可以提出作为该 PEP 的指导委员会代表（或 “PEP 沙皇”）。如果他们的自荐被其他 PyPA 核心评审员、PyPI 主要维护者和软件包分发元数据 PEP 的默认 PEP-Delegate 接受，那么他们将有权批准（或拒绝）该 PEP。</p>
 <p>Otherwise, the default (“standing”) PEP-Delegate depends on the area
 the PEP affects. The <a class="reference external" href="https://github.com/python/steering-council/blob/master/process/standing-delegations.md#pypa-delegations">current standing delegations</a> are:</p>
 <ul class="simple">
@@ -358,8 +343,8 @@ publishers and tool developers.</p>
             <ul>
 <li><a class="reference internal" href="#">PyPA 规范</a><ul>
 <li><a class="reference internal" href="#active-specifications">活跃的规格</a></li>
-<li><a class="reference internal" href="#specification-update-process">Specification Update Process</a><ul>
-<li><a class="reference internal" href="#proposing-new-specifications">Proposing new specifications</a></li>
+<li><a class="reference internal" href="#specification-update-process">规范更新过程</a><ul>
+<li><a class="reference internal" href="#proposing-new-specifications">提出新的规范</a></li>
 <li><a class="reference internal" href="#provisional-acceptance">Provisional Acceptance</a></li>
 <li><a class="reference internal" href="#handling-fixes-and-other-minor-updates">Handling fixes and other minor updates</a></li>
 <li><a class="reference internal" href="#handling-major-updates">Handling major updates</a></li>
